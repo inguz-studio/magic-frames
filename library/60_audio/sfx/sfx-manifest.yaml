@@ -1,0 +1,1231 @@
+# sfx-manifest — Magic Frames Library
+# Ingerido em 02/10/2026 a partir de ~/Downloads (pasta do Drive 'SFX FPV [Mini Disc]', dona elytraprod@gmail.com).
+# Regra: só entra em entrega o que tem `licenca` preenchida. `pendente` = o dono confirma a origem/compra.
+packs:
+  - nome: "SFX FPV [Mini Disc]"
+    autor: elytraprod (Drive)
+    licenca: pendente   # confirmar se foi comprado/licenciado e os termos
+  - nome: "Filmkid SFX Bundle"
+    autor: Filmkid
+    licenca: pendente   # Filmkid vende packs com licença de uso; confirmar a compra e guardar o recibo
+sfx:
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-city-01.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_city_01.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 11.14
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 630662
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-city-02.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_city_02.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 51.17
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 2231040
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-dirtbike-001.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_dirtbike 001.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 21.7
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1052160
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-dirtbike-002.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_dirtbike 002.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 23.62
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1128960
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-dirtbike-003.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_dirtbike 003.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 4.37
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 359040
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-dirtbike-004.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_dirtbike 004.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 12.0
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 664320
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-dirtbike-005.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_dirtbike 005.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 36.22
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1632960
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-dirtbike-006.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_dirtbike 006.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 6.02
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 425280
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-river.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_river.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 30.5
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1404480
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-trees-001.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_trees_001.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.26
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 274560
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-trees-002.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_trees_002.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.46
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 242880
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-trees-003.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_trees_003.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.45
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 282240
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_sf-trees-004.mp3
+    categoria: ambience-bonus
+    nome_original: "SF_trees_004.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.54
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 245760
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience-bonus/ambience-bonus_zaim-fpv.mp3
+    categoria: ambience-bonus
+    nome_original: "Zaim FPV.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 4.3
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 356160
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience/ambience_sf-ambience-01.mp3
+    categoria: ambience
+    nome_original: "SF_Ambience_01.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 33.46
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1522560
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience/ambience_sf-ambience-02.mp3
+    categoria: ambience
+    nome_original: "SF_Ambience_02.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 11.5
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 644160
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience/ambience_sf-ambience-03.mp3
+    categoria: ambience
+    nome_original: "SF_Ambience_03.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 27.84
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1297920
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience/ambience_sf-ambience-04.mp3
+    categoria: ambience
+    nome_original: "SF_Ambience_04.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 32.11
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1468800
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/ambience/ambience_sf-ambience-05.mp3
+    categoria: ambience
+    nome_original: "SF_Ambience_05.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 72.55
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 3086400
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-01.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_01.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.2
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 232320
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-02.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_02.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.01
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 224640
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-03.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_03.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.18
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 231360
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-04.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_04.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.9
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 260160
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-05.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_05.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.79
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 216000
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-06.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_06.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.14
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 269760
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-07.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_07.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 3.7
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 332160
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-08.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_08.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.6
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 208320
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-09.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_09.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.14
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 269760
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-10.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_10.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.14
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 269760
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-11.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_11.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.73
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 253440
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-12.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_12.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.73
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 253440
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-13.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_13.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.98
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 223680
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-14.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_14.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.75
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 254400
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-15.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_15.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.58
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 247680
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-16.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_16.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.44
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 241920
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-17.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_17.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.79
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 216000
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-18.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_18.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.94
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 221760
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-19.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_19.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.99
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 264000
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-20.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_20.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.26
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 274560
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-21.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_21.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.42
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 281280
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-22.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_22.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 3.05
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 306240
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-23.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_23.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.56
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 246720
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-24.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_24.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.68
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 251520
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-25.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_25.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.18
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 231360
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-26.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_26.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.06
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 226560
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-27.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_27.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.5
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 204480
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-28.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_28.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.7
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 212160
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-29.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_29.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.06
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 226560
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-30.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_30.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.74
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 214080
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-31.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_31.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.73
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 253440
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-32.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_32.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.86
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 218880
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-33.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_33.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.82
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 216960
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-34.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_34.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.72
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 213120
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-35.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_35.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.58
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 207360
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-36.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_36.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.21
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 272640
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-37.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_37.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.9
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 300480
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-38.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_38.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.78
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 295680
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-39.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_39.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 2.09
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 267840
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-40.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_40.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.92
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 261120
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-41.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_41.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 3.05
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 306240
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/swoosh/swoosh_sf-swoosh-42.mp3
+    categoria: swoosh
+    nome_original: "SF_swoosh_42.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 3.05
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 306240
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-01.mp3
+    categoria: wind
+    nome_original: "SF_wind_01.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 11.76
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 654720
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-02.mp3
+    categoria: wind
+    nome_original: "SF_wind_02.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 22.94
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1102080
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-03.mp3
+    categoria: wind
+    nome_original: "SF_wind_03.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 16.58
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 847680
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-04.mp3
+    categoria: wind
+    nome_original: "SF_wind_04.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 13.01
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 704640
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-05.mp3
+    categoria: wind
+    nome_original: "SF_wind_05.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 0.98
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 223680
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-06.mp3
+    categoria: wind
+    nome_original: "SF_wind_06.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 6.22
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 432960
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-08.mp3
+    categoria: wind
+    nome_original: "SF_wind_08.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 8.14
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 509760
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-09.mp3
+    categoria: wind
+    nome_original: "SF_wind_09.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 8.11
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 508800
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-10.mp3
+    categoria: wind
+    nome_original: "SF_wind_10.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 46.34
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 2038080
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-11.mp3
+    categoria: wind
+    nome_original: "SF_wind_11.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 22.3
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 1075801
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/wind/wind_sf-wind-12.mp3
+    categoria: wind
+    nome_original: "SF_wind_12.mp3"
+    pack: "SFX FPV [Mini Disc] (elytraprod)"
+    duracao_s: 1.99
+    sample_rate: 48000
+    canais: 2
+    codec: mp3
+    tamanho_bytes: 264000
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_ascending-camera-snap.wav
+    categoria: click
+    nome_original: "Filmkid_Ascending Camera Snap （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 4.83
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2804098
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_click-out-momentum.wav
+    categoria: click
+    nome_original: "Filmkid_Click Out Momentum （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.71
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1573618
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_descending-camera-snap.wav
+    categoria: click
+    nome_original: "Filmkid_Descending Camera Snap （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 5.33
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 3093618
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_dwindling-snaps.wav
+    categoria: click
+    nome_original: "Filmkid_Dwindling Snaps （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.83
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1646002
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_kinetic-ramp-up.wav
+    categoria: click
+    nome_original: "Filmkid_Kinetic Ramp Up （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.21
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1284098
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_lead-up-tick.wav
+    categoria: click
+    nome_original: "Filmkid_Lead Up Tick （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 4.33
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2514570
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_ramp-up-short-mid-range.wav
+    categoria: click
+    nome_original: "Filmkid_Ramp Up Short Mid Range （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 1.38
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 801562
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_reverse-metal-rise.wav
+    categoria: click
+    nome_original: "Filmkid_Reverse Metal Rise （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 1.79
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1042826
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_rise-whoosh-tack.wav
+    categoria: click
+    nome_original: "Filmkid_Rise Whoosh Tack （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 6.46
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 3745042
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_rising-digital-slice.wav
+    categoria: click
+    nome_original: "Filmkid_Rising Digital Slice （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.29
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1332354
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_shots-in-5.wav
+    categoria: click
+    nome_original: "Filmkid_Shots in 5 （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.38
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1380602
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_simple-ramp-rollercoaster-short.wav
+    categoria: click
+    nome_original: "Filmkid_Simple Ramp Rollercoaster Short （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 1.83
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1066954
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_small-tick-ramp-down.wav
+    categoria: click
+    nome_original: "Filmkid_Small Tick Ramp Down （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.17
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1839018
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_spunned-up-shut-down.wav
+    categoria: click
+    nome_original: "Filmkid_Spunned Up Shut Down （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 1.5
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 873938
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/click/click_tension-simultaneous.wav
+    categoria: click
+    nome_original: "Filmkid_Tension Simultaneous （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.12
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1235842
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_breathy-low-deep-reverse.wav
+    categoria: riser
+    nome_original: "Filmkid_Breathy Low Deep Reverse （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 7.62
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 4420602
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_cinematic-heavy-bass-ramp-up.wav
+    categoria: riser
+    nome_original: "Filmkid_Cinematic Heavy Bass Ramp Up （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.38
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1959650
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_deep-airy-ring-out-short.wav
+    categoria: riser
+    nome_original: "Filmkid_Deep Airy Ring Out Short （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 1.96
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1139338
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_deep-heavy-climb.wav
+    categoria: riser
+    nome_original: "Filmkid_Deep Heavy Climb （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 4.46
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2586954
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_deep-rise-breath.wav
+    categoria: riser
+    nome_original: "Filmkid_Deep Rise Breath （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.25
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1887274
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_distorted-dreams-sequence.wav
+    categoria: riser
+    nome_original: "Filmkid_Distorted Dreams Sequence （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 9.17
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 5313298
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_incoming-whooshy-bass.wav
+    categoria: riser
+    nome_original: "Filmkid_Incoming Whooshy Bass （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.17
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1839018
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_long-whooshy-sharp-ending.wav
+    categoria: riser
+    nome_original: "Filmkid_Long Whooshy Sharp Ending （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.08
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1790770
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_metallic-reverb-ring-out.wav
+    categoria: riser
+    nome_original: "Filmkid_Metallic Reverb Ring Out （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 4.71
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2731714
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_projectile-front-whoosh.wav
+    categoria: riser
+    nome_original: "Filmkid_Projectile Front Whoosh （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.21
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1284098
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_ramp-up-whoosh-time.wav
+    categoria: riser
+    nome_original: "Filmkid_Ramp Up Whoosh Time （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.88
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2249178
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_short-rise-up-projectile.wav
+    categoria: riser
+    nome_original: "Filmkid_Short Rise Up Projectile （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.5
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1452986
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_simple-airy-vacuum-low.wav
+    categoria: riser
+    nome_original: "Filmkid_Simple Airy Vacuum Low （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.0
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1163458
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_thunderous-tension-tinnitus.wav
+    categoria: riser
+    nome_original: "Filmkid_Thunderous Tension Tinnitus （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 4.67
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2707586
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/riser/riser_whoosh-slow-build-cutoff-low.wav
+    categoria: riser
+    nome_original: "Filmkid_Whoosh Slow Build Cutoff Low （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 10.96
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 6350762
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_air-bellow-deep.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Air Bellow Deep （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 1.5
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 873938
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_cinematic-buffed-hit.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Cinematic Buffed Hit （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.58
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2080282
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_cinematic-time-warp.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Cinematic Time Warp （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 10.0
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 5795834
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_cold-air-swing.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Cold AIr Swing （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 0.88
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 512042
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_crisp-high-short-reverb.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Crisp High Short Reverb （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 4.33
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2514570
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_crisp-wind-long-echo.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Crisp Wind Long Echo （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 6.46
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 3745042
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_heavy-depth-air.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Heavy Depth Air （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.79
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2200922
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_hit-shake-intense-rise.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Hit Shake Intense Rise （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 7.33
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 4251706
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_incoming-judgement.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Incoming Judgement （Filmkid_.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.5
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2032034
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_low-wind-blow.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Low Wind Blow （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 3.67
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2128538
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_pass-through-time-low-deep.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Pass Through Time Low Deep （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 5.79
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 3359010
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_put-it-in-slow-mo.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Put It In Slow Mo （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 8.62
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 4999650
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_rapid-warper.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Rapid Warper （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.71
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1573618
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_reverse-cinematic-dark-shaky-low.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Reverse Cinematic Dark Shaky Low （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 4.75
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2755842
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_shaky-flame-out.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Shaky Flame Out （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.96
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1718386
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_simple-swoosh-deep-long.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Simple Swoosh Deep Long （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 5.04
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 2924730
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_simple-swoosh-wind-short.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Simple Swoosh Wind Short （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.75
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1597754
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_swoosh-movement-liquidy-pass-short-quick.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Swoosh Movement Liquidy Pass Short Quick （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 2.12
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 1235842
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_thud-air-blow.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Thud Air Blow （Filmkid）.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 0.92
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 536162
+    licenca: pendente
+  - arquivo: library/60_audio/sfx/whoosh/whoosh_trillobyte-double-back-bass.wav
+    categoria: whoosh
+    nome_original: "Filmkid_Trillobyte Double Back Bass （Filmkid.wav"
+    pack: "Filmkid SFX Bundle (Filmkid)"
+    duracao_s: 5.92
+    sample_rate: 96000
+    canais: 2
+    codec: pcm_s24le
+    tamanho_bytes: 3431394
+    licenca: pendente

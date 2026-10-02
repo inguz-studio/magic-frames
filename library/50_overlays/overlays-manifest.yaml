@@ -1,0 +1,279 @@
+# overlays-manifest — Magic Frames Library
+# Ingerido em 02/10/2026 de ~/Downloads/'Frame Overlays by @harrisonniap' (30 PNG). Molduras/letterbox com alfa para compor sobre o vídeo.
+# Uso: ffmpeg -i clip.mp4 -i frame.png -filter_complex "[1:v]scale=1080:1920[f];[0:v][f]overlay=0:0,format=yuv420p" ... (escalar a moldura ao canvas do clipe).
+# Regra: só entra em entrega com `licenca` preenchida.
+packs:
+  - nome: "Frame Overlays by @harrisonniap"
+    autor: "@harrisonniap"
+    licenca: pendente   # confirmar os termos do autor (uso comercial? crédito?)
+overlays:
+  - arquivo: library/50_overlays/frames/frame_film-damaged_normal_16_9.png
+    familia: film-damaged
+    nome_original: "Film damaged/Normal/16_9.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 568817
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_normal_1_1.png
+    familia: film-damaged
+    nome_original: "Film damaged/Normal/1_1.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 445134
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_normal_2.35_1.png
+    familia: film-damaged
+    nome_original: "Film damaged/Normal/2.35_1.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 611522
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_normal_3_4.png
+    familia: film-damaged
+    nome_original: "Film damaged/Normal/3_4.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 372508
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_normal_4_3.png
+    familia: film-damaged
+    nome_original: "Film damaged/Normal/4_3.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 497325
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_normal_stacked.png
+    familia: film-damaged
+    nome_original: "Film damaged/Normal/Stacked.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 254647
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_wide_16_9_wide.png
+    familia: film-damaged
+    nome_original: "Film damaged/Wide/16_9_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 513969
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_wide_1_1_wide.png
+    familia: film-damaged
+    nome_original: "Film damaged/Wide/1_1_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 356581
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_wide_2.35_1_wide.png
+    familia: film-damaged
+    nome_original: "Film damaged/Wide/2.35_1_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 571638
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_wide_3_4_wide.png
+    familia: film-damaged
+    nome_original: "Film damaged/Wide/3_4_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 262195
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_wide_4_3_wide.png
+    familia: film-damaged
+    nome_original: "Film damaged/Wide/4_3_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 357589
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_film-damaged_wide_stacked_wide.png
+    familia: film-damaged
+    nome_original: "Film damaged/Wide/Stacked_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 120112
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_normal_16_9.png
+    familia: plain-black
+    nome_original: "Plain black/Normal/16_9.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 38183
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_normal_1_1.png
+    familia: plain-black
+    nome_original: "Plain black/Normal/1_1.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 38366
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_normal_2.35_1.png
+    familia: plain-black
+    nome_original: "Plain black/Normal/2.35_1.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 38824
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_normal_3_4.png
+    familia: plain-black
+    nome_original: "Plain black/Normal/3_4.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 38586
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_normal_4_3.png
+    familia: plain-black
+    nome_original: "Plain black/Normal/4_3.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 37640
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_normal_stacked.png
+    familia: plain-black
+    nome_original: "Plain black/Normal/Stacked.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 42438
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_wide_16_9_wide.png
+    familia: plain-black
+    nome_original: "Plain black/Wide/16_9_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 38887
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_wide_1_1_wide.png
+    familia: plain-black
+    nome_original: "Plain black/Wide/1_1_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 38874
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_wide_2.35_1_wide.png
+    familia: plain-black
+    nome_original: "Plain black/Wide/2.35_1_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 38992
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_wide_3_4_wide.png
+    familia: plain-black
+    nome_original: "Plain black/Wide/3_4_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 38335
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_wide_4_3_wide.png
+    familia: plain-black
+    nome_original: "Plain black/Wide/4_3_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 37496
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_plain-black_wide_stacked_wide.png
+    familia: plain-black
+    nome_original: "Plain black/Wide/Stacked_wide.png"
+    largura: 900
+    altura: 1600
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 42697
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_unique-frames_5120x1080-trend_5120_1080_horizontal.png
+    familia: unique-frames
+    nome_original: "Unique frames/5120x1080 Trend/5120_1080_horizontal.png"
+    largura: 3840
+    altura: 2160
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 153865
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_unique-frames_5120x1080-trend_5120_1080_vertical.png
+    familia: unique-frames
+    nome_original: "Unique frames/5120x1080 Trend/5120_1080_vertical.png"
+    largura: 2160
+    altura: 3840
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 166526
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_unique-frames_binoculars_binoculars_horizontal.png
+    familia: unique-frames
+    nome_original: "Unique frames/Binoculars/Binoculars_horizontal.png"
+    largura: 1920
+    altura: 1080
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 473806
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_unique-frames_binoculars_binoculars_vertical.png
+    familia: unique-frames
+    nome_original: "Unique frames/Binoculars/Binoculars_vertical.png"
+    largura: 1080
+    altura: 1920
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 226279
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_unique-frames_keyhole.png
+    familia: unique-frames
+    nome_original: "Unique frames/Keyhole.png"
+    largura: 2160
+    altura: 3840
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 821096
+    licenca: pendente
+  - arquivo: library/50_overlays/frames/frame_unique-frames_mouse-hole.png
+    familia: unique-frames
+    nome_original: "Unique frames/Mouse hole.png"
+    largura: 2160
+    altura: 3840
+    pix_fmt: rgba
+    alfa: sim
+    tamanho_bytes: 525526
+    licenca: pendente

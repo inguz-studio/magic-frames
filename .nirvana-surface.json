@@ -1,0 +1,146 @@
+{
+  "schema": 3,
+  "kind": "business",
+  "slug": "magic-frames",
+  "contract_version": "2.0.0",
+  "surface_hash": "f113546139d59440",
+  "prose_hash": "8dd7571f4607149d",
+  "entries": {
+    "domain:ai_video_direction": {
+      "type": "domain",
+      "hash": "74df1e1d45cde5b8"
+    },
+    "domain:cinematography": {
+      "type": "domain",
+      "hash": "529765e7fb0c459e"
+    },
+    "domain:filmmaking": {
+      "type": "domain",
+      "hash": "f58b2ff6fe5a7ab0"
+    },
+    "domain:motion_design": {
+      "type": "domain",
+      "hash": "0a7020a4021f540b"
+    },
+    "domain:post_production": {
+      "type": "domain",
+      "hash": "552a57a102688fc2"
+    },
+    "domain:short_form_video": {
+      "type": "domain",
+      "hash": "aae35c3ec3a27ce7"
+    },
+    "domain:video_editing": {
+      "type": "domain",
+      "hash": "253beed29ffea33f"
+    },
+    "domain:youtube_retention": {
+      "type": "domain",
+      "hash": "1bcd8806e506471d"
+    },
+    "employee:asset-broll-curator": {
+      "type": "employee",
+      "hash": "ba54b939e521a41f"
+    },
+    "employee:cinematography-ai-director": {
+      "type": "employee",
+      "hash": "eb235c6c2a5f06a5"
+    },
+    "employee:color-grading-colorist": {
+      "type": "employee",
+      "hash": "baf236c8f0712b7f"
+    },
+    "employee:council-editorial-arbiter": {
+      "type": "employee",
+      "hash": "4efd8d5d1c91135d"
+    },
+    "employee:lead-editorial-director": {
+      "type": "employee",
+      "hash": "b5478b61b0453961"
+    },
+    "employee:motion-hyperframes-engineer": {
+      "type": "employee",
+      "hash": "595564be274b50eb"
+    },
+    "employee:reference-scout": {
+      "type": "employee",
+      "hash": "6e8b4d6ac089ca14"
+    },
+    "employee:retention-subtitles-specialist": {
+      "type": "employee",
+      "hash": "526606ebcf76273b"
+    },
+    "employee:smart-clip-editor": {
+      "type": "employee",
+      "hash": "b62309a7529404bc"
+    },
+    "org-chart:org-chart.yaml": {
+      "type": "org-chart",
+      "hash": "df219d843e782be5"
+    },
+    "produces:ai-prompt-cinematography": {
+      "type": "produces",
+      "hash": "6e00e013f4514945"
+    },
+    "produces:asset-library-index": {
+      "type": "produces",
+      "hash": "e9fbc15f6bcc3844"
+    },
+    "produces:broll-insert-manifest": {
+      "type": "produces",
+      "hash": "6a5a4088eb63c401"
+    },
+    "produces:camera-shotlist-directive": {
+      "type": "produces",
+      "hash": "c0a4c39b83e5c811"
+    },
+    "produces:clip-manifest": {
+      "type": "produces",
+      "hash": "3194f217ce6cfccf"
+    },
+    "produces:color-grade-package": {
+      "type": "produces",
+      "hash": "420b9d169b4a1df3"
+    },
+    "produces:debrief-memo": {
+      "type": "produces",
+      "hash": "fcaf2a8a76f2066e"
+    },
+    "produces:editing-master-cut": {
+      "type": "produces",
+      "hash": "6cc7e5e14f7e9dad"
+    },
+    "produces:editorial-critique-memo": {
+      "type": "produces",
+      "hash": "c4d976ba505f9ae6"
+    },
+    "produces:hyperframes-motion-overlay": {
+      "type": "produces",
+      "hash": "a48aecd1a5f47f7a"
+    },
+    "produces:lut-library-manifest": {
+      "type": "produces",
+      "hash": "1bcb1efbf950c40e"
+    },
+    "produces:reference-board": {
+      "type": "produces",
+      "hash": "4b6b25ae6ecf32a3"
+    },
+    "produces:retention-hook-architecture": {
+      "type": "produces",
+      "hash": "18095c0e304e46ba"
+    },
+    "produces:subtitle-style-package": {
+      "type": "produces",
+      "hash": "4c751be90bbadaa0"
+    },
+    "produces:vertical-clip-set": {
+      "type": "produces",
+      "hash": "06d27996af6ba246"
+    },
+    "routing:routing.yaml": {
+      "type": "routing",
+      "hash": "e970195dea8776a1"
+    }
+  }
+}

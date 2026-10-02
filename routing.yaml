@@ -1,0 +1,28 @@
+brief_intake:
+  default_employee: lead-editorial-director
+  alternates: []
+# Ordem importa: a primeira rota que casa define quem recebe o pedido.
+# 1) Pedido composto de edição entra pelo diretor, que decompõe.
+# 2) Cor entra pelo colorista; 3) pesquisa de referências/notícias entra pelo scout; 4) corte de vídeo longo entra pelo Smart Clipper.
+# 5) Só depois as demais especialidades, com padrões estreitos.
+auto_routes:
+  - pattern: '(?i)editar\s+(um|uma|o|a)?\s*(reel|v[ií]deo|short|tiktok|vsl|document[aá]rio)|edit(ing)?\s+(a|the)?\s*(reel|video|short)|montar\s+(o|um)\s+v[ií]deo|v[ií]deo\s+de\s+alta\s+reten[cç][aã]o|high[- ]retention'
+    route_to: lead-editorial-director
+  - pattern: '(?i)coloriza[cç][aã]o|color\s+grad(e|ing)|colorista|colorist|\bluts?\b|film\s+emulation|emula[cç][aã]o\s+de\s+filme|teal\s*(&|and|e)\s*orange|skin\s*tone|tom\s+de\s+pele|log\s*(to|para|→)\s*rec\.?\s*709|s-?log|v-?log|c-?log|apple\s+log|rec\.?\s*709'
+    route_to: color-grading-colorist
+  - pattern: '(?i)refer[eê]ncias?\s+(de|em)\s+(reels?|tiktok|shorts|v[ií]deo)|reels?\s+de\s+refer[eê]ncia|pesquisar\s+(reels?|not[ií]cias|tend[eê]ncias|trends?)|not[ií]cias?\s+(da\s+semana|para\s+inserts?|sobre)|tend[eê]ncias\s+de\s+v[ií]deo|trend(ing)?\s+(reels?|research|videos?)|news\s+(clips?|for\s+inserts?)|benchmark\s+de\s+(reels?|v[ií]deos?)'
+    route_to: reference-scout
+  - pattern: '(?i)cortar|cortes?\s+(de|do|em)\s+(v[ií]deo|reels?|clips?)|clip(ar|es|s)?\b|reels?\s+de\s+\d+\s*s|v[ií]deo\s+longo|highlights?|momentos\s+(virais|mais)|smart\s+clipper|trechos?\s+(mais|virais)'
+    route_to: smart-clip-editor
+  - pattern: '(?i)[aâ]ngulos?\s+de\s+c[aâ]mera|camera\s+(framing|movement|angles?)|cinematogr|shot\s*list|prompts?\s+(de|para)\s+(veo|sora|kling|runway)'
+    route_to: cinematography-ai-director
+  - pattern: '(?i)organizar\s+(o\s+)?(drive|assets?|biblioteca|pastas)|biblioteca\s+de\s+(assets?|b[- ]?roll)|google\s+drive|[ií]ndice\s+(visual|de\s+assets?)|asset\s+library|contact\s+sheet'
+    route_to: asset-broll-curator
+  - pattern: '(?i)banco\s+de\s+imagens|b[- ]?rolls?\b|stock\s+footage|pexels|pixabay|unsplash'
+    route_to: asset-broll-curator
+  - pattern: '(?i)hyperframes|remotion|overlays?\s+(interativos?|em\s+motion|animados?)|motion\s+design\s+(em\s+c[oó]digo|para\s+v[ií]deo|no\s+v[ií]deo)|lower\s+thirds?|kinetic\s+typography|tipografia\s+cin[eé]tica'
+    route_to: motion-hyperframes-engineer
+  - pattern: '(?i)conselho\s+executivo|murch|baxter|schoonmaker|menke|critique|cr[ií]tica\s+editorial|revis[aã]o\s+editorial|corte\s+bruto'
+    route_to: council-editorial-arbiter
+  - pattern: '(?i)legendas?|captions?|safe\s+zones?|karaok[eê]|hormozi'
+    route_to: retention-subtitles-specialist

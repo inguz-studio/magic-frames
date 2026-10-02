@@ -1,0 +1,217 @@
+# lut-library-manifest — Magic Frames
+# Inventário feito em 02/10/2026 a partir do Drive do dono (pasta 1P1D-tAfDbFrPjCi3H1WWXZiLwjaX6v0e, 'Look LUTs' importadas do CapCut).
+# Regra da casa (memory/permanent.md §8.4): LUT só entra em entrega com `licenca` preenchida. `pendente` = o dono ainda não disse a origem/licença.
+# Arquivos .cube ficam em library/40_luts/ quando baixados; previews em library/40_luts/previews/.
+luts:
+  - id: look-01
+    nome_original: 1.cube
+    arquivo: library/40_luts/look-01.cube
+    preview: library/40_luts/previews/look-01.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 933975
+    drive_id: 1JM6cl5eDlP_EGn_r46HUXRsYP0797w5A
+    drive_preview_id: 1iQI_B6_H5eD26Mf_0dPNlAwvvbSNpcgN
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-02
+    nome_original: 2.cube
+    arquivo: library/40_luts/look-02.cube
+    preview: library/40_luts/previews/look-02.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 958386
+    drive_id: 1Wok0NvP0s8Z-c0t3ydqSXzGYApI5s7oK
+    drive_preview_id: 1qiX-gUaa_8LrOYYM9acNMmsATMet2KuI
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-03
+    nome_original: 3.cube
+    arquivo: library/40_luts/look-03.cube
+    preview: library/40_luts/previews/look-03.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 901489
+    drive_id: 11hCvcEYYMI8shFAEcpAEBFUEQNDIxzgE
+    drive_preview_id: 1deKB8DNm7VtZVB74mTDu4SUPTkZnj9Td
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-04
+    nome_original: 4.cube
+    arquivo: library/40_luts/look-04.cube
+    preview: library/40_luts/previews/look-04.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 914300
+    drive_id: 1t6LkyRZ6f5iBBrrgYstBPkGVfiZKvVF7
+    drive_preview_id: 1lPOasJRZz5n4l3L3MlCHGb_i49O-qhA8
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-05
+    nome_original: 5.cube
+    arquivo: library/40_luts/look-05.cube
+    preview: library/40_luts/previews/look-05.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 946816
+    drive_id: 1mQ5GAeFXsj_eKB-ORPY_QhNIgnZxswsM
+    drive_preview_id: 11xSRim5k78CTdxmeGRByuuT3e2BaXx9l
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-06
+    nome_original: 6.cube
+    arquivo: library/40_luts/look-06.cube
+    preview: library/40_luts/previews/look-06.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 911204
+    drive_id: 1kyoHc_wjiyRA9I1FdL7--8UXoVvFhJ-1
+    drive_preview_id: 1XzOQc-vNNFvw2-iLXcD4_gubde-21qkY
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-07
+    nome_original: 7.cube
+    arquivo: library/40_luts/look-07.cube
+    preview: library/40_luts/previews/look-07.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 958642
+    drive_id: 1cXUrx8WtcC01Yggv4uwcal8nbMa98qdQ
+    drive_preview_id: 1ibt7eHHOU3LjvgKzs2jNUNI_M0ePTzY2
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-08
+    nome_original: 8.cube
+    arquivo: library/40_luts/look-08.cube
+    preview: library/40_luts/previews/look-08.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 909503
+    drive_id: 1478WAWAsJyF-0McbRKdXasxGd8Itr6kE
+    drive_preview_id: 1VTYkQ7OaywCP-x-0g4fIrTjuqTUHZXKl
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-09
+    nome_original: 9.cube
+    arquivo: library/40_luts/look-09.cube
+    preview: library/40_luts/previews/look-09.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 953370
+    drive_id: 1IfpI7vpKtfV6G4MmV_0eKqHzq0vPkbi4
+    drive_preview_id: 1Cf1B-D7JpKokBBwAQYYAtnijQqR2M_hU
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-10
+    nome_original: 10.cube
+    arquivo: library/40_luts/look-10.cube
+    preview: library/40_luts/previews/look-10.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 972671
+    drive_id: 1WIpUuBCy1S6aVVvJUa8m_4m5C3ADXX--
+    drive_preview_id: 1CrCNG2qMXyyd4bo9rUxnpAPN6PE8zlDW
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-11
+    nome_original: 11.cube
+    arquivo: library/40_luts/look-11.cube
+    preview: library/40_luts/previews/look-11.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 836704
+    drive_id: 15XrdzI91eck_wC87y3wzulncxC0SYzuB
+    drive_preview_id: 18Y8cpbGbvfEvAngR-HvTfJxQSi0znVQQ
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-12
+    nome_original: 12.cube
+    arquivo: library/40_luts/look-12.cube
+    preview: library/40_luts/previews/look-12.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 946571
+    drive_id: 12CYKK7E5m2HSDkieWADeDB6YOhTLM6kl
+    drive_preview_id: 15pG6IMjy-YIvIe75gqk-QTk0WohuJOJ1
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-13
+    nome_original: 13.cube
+    arquivo: library/40_luts/look-13.cube
+    preview: library/40_luts/previews/look-13.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 890395
+    drive_id: 1hta3TGoZj4jj-SWCA_CFV6_5hkTFPExx
+    drive_preview_id: 1W1oEvIRvOmDUlb41p3-ILg6kUFgps9e7
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: look-14
+    nome_original: 14.cube
+    arquivo: library/40_luts/look-14.cube
+    preview: library/40_luts/previews/look-14.jpeg
+    tipo: criativa          # look; nunca aplicar direto em log (§8.1)
+    tamanho_bytes: 976201
+    drive_id: 1uwg6IfofrsvB6AOXddyrQf45JQYRL7bs
+    drive_preview_id: 1cKjPu4pPgLQTsBPyNnQGZRgWQVbuzOe1
+    origem: "pacote 'Look LUTs' (importado no CapCut em 2026-01-31; autor do pacote não identificado)"
+    licenca: pendente
+    baixado: true
+    observacoes: "nome só numérico; o colorista batiza pelo look depois de testar com grade-compare"
+
+  - id: dji-avata2-dlogm-to-rec709-v1
+    nome_original: "DJI Avata 2 D-Log M to Rec.709 V1._.cube"
+    arquivo: library/40_luts/dji-avata2-dlogm-to-rec709-v1.cube
+    preview: library/40_luts/previews/dji-avata2-dlogm-to-rec709-v1.jpeg
+    tipo: tecnica           # log → Rec.709; aplicar ANTES de qualquer look (§8.1)
+    tamanho_bytes: 1042315
+    drive_id: 16-CqHbA0dMSUfDCVRztzWVu2IhBX7_J6
+    drive_preview_id: 1pin0wE75pSBhPDJ7g-U9e0z7K5svbaJj
+    origem: "LUT oficial DJI para Avata 2 (D-Log M → Rec.709)"
+    licenca: "DJI — distribuída pela DJI para uso com o material da câmera; confirmar termos antes de incluir no pacote de venda"
+    baixado: true
+
+  - id: lacreme-rec709_la-creme-rec709-cream-33
+    nome_original: "La Creme - Rec709 Cream [33].cube"
+    arquivo: library/40_luts/lacreme-rec709_la-creme-rec709-cream-33.cube
+    tipo: criativa          # pack 'LA CREME REC 709' (veio junto da pasta de SFX); aplicar sobre material já em Rec.709
+    tamanho_bytes: 956754
+    lut_size: 33
+    origem: "pasta 'LUTS - LA CREME REC 709' dentro de 'SFX FPV [Mini Disc]' (elytraprod)"
+    licenca: pendente
+    baixado: true
+  - id: lacreme-rec709_la-creme-rec709-original-33
+    nome_original: "La Creme - Rec709 Original [33].cube"
+    arquivo: library/40_luts/lacreme-rec709_la-creme-rec709-original-33.cube
+    tipo: criativa          # pack 'LA CREME REC 709' (veio junto da pasta de SFX); aplicar sobre material já em Rec.709
+    tamanho_bytes: 956443
+    lut_size: 33
+    origem: "pasta 'LUTS - LA CREME REC 709' dentro de 'SFX FPV [Mini Disc]' (elytraprod)"
+    licenca: pendente
+    baixado: true

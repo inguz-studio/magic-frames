@@ -1,0 +1,56 @@
+chart:
+  - employee: lead-editorial-director
+    reports: []
+    direct_reports:
+      - smart-clip-editor
+      - cinematography-ai-director
+      - color-grading-colorist
+      - reference-scout
+      - asset-broll-curator
+      - motion-hyperframes-engineer
+      - retention-subtitles-specialist
+      - council-editorial-arbiter
+  - employee: smart-clip-editor
+    reports:
+      - lead-editorial-director
+    direct_reports: []
+  - employee: cinematography-ai-director
+    reports:
+      - lead-editorial-director
+    direct_reports: []
+  - employee: color-grading-colorist
+    reports:
+      - lead-editorial-director
+    direct_reports: []
+  - employee: asset-broll-curator
+    reports:
+      - lead-editorial-director
+    direct_reports: []
+  - employee: reference-scout
+    reports:
+      - lead-editorial-director
+    direct_reports: []
+  - employee: motion-hyperframes-engineer
+    reports:
+      - lead-editorial-director
+    direct_reports: []
+  - employee: retention-subtitles-specialist
+    reports:
+      - lead-editorial-director
+    direct_reports: []
+  - employee: council-editorial-arbiter
+    reports:
+      - lead-editorial-director
+    direct_reports: []
+    is_antagonist: true
+    antagonizes:
+      - lead-editorial-director
+
+routing_rules:
+  escalation_path:
+    cut_review_publish: council-editorial-arbiter
+    editorial_veto: council-editorial-arbiter
+    pacing_qa_publish: council-editorial-arbiter
+    director_termination: human
+    budget_over_run: human
+    brand_safety_violation: human

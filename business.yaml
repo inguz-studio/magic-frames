@@ -1,0 +1,207 @@
+name: magic-frames
+slug: magic-frames
+author: "Vitor Piagge"
+version: 2.0.0
+license: proprietary
+protocol: "2.0"
+description: >
+  Estúdio de edição de vídeo cinematográfica, retenção de YouTube e short-form dinâmico de alta conversão. Combina a gramática clássica de montagem de cinema (Walter Murch, Thelma Schoonmaker, Sally Menke, Kirk Baxter) com as técnicas modernas de retenção visual (Hayden Hillier-Smith, Paddy Galloway, Sam Kolder, Alex Hormozi). Opera em quatro pilares integrados: (1) Direção técnica de ângulos de câmera, lentes e movimentos para geração de cenas por IA (Veo 3.1, Sora, Kling, Runway); (2) Mineração de assets reais e B-roll contextual via MCP de bancos de imagens (Pexels, Pixabay) e download de mídia para inserts ágeis; (3) Motion design code-based via HyperFrames (framework agent-native da HeyGen) e Remotion para overlays determinísticos, kinetic typography e gráficos interativos; (4) Sistema de legendagem de alta retenção respeitando safe zones verticais, com gating adversarial pelo conselho executivo de edição; (5) Colorização: correção primária, gerenciamento de cor (log → Rec.709), look criativo por LUT/CDL e emulação de filme, aplicados por FFmpeg e HyperFrames com conferência por scopes; (6) Smart Clipper: corte de vídeo longo local (podcast, aula, live, entrevista) em clipes verticais 9:16 de 40 a 150 segundos, com transcrição por palavra, seleção de momentos e render acelerado por VideoToolbox via FFmpeg.
+domains:
+  - video_editing
+  - filmmaking
+  - post_production
+  - motion_design
+  - cinematography
+  - youtube_retention
+  - short_form_video
+  - ai_video_direction
+authority_level: tier-1
+operation_mode: zero_human
+
+produces:
+  - editing-master-cut
+  - vertical-clip-set
+  - clip-manifest
+  - color-grade-package
+  - lut-library-manifest
+  - debrief-memo
+  - reference-board
+  - asset-library-index
+  - camera-shotlist-directive
+  - broll-insert-manifest
+  - subtitle-style-package
+  - hyperframes-motion-overlay
+  - editorial-critique-memo
+  - retention-hook-architecture
+  - ai-prompt-cinematography
+
+keywords:
+  - referências de reels
+  - reels de referência
+  - pesquisar reels
+  - pesquisar notícias
+  - notícias para inserts
+  - tendências de vídeo
+  - trend research
+  - organizar assets
+  - biblioteca de assets
+  - organizar drive
+  - google drive
+  - asset library
+  - colorização
+  - color grading
+  - colorista
+  - colorist
+  - lut
+  - luts
+  - cube lut
+  - emulação de filme
+  - film emulation
+  - teal and orange
+  - tom de pele
+  - skin tone
+  - log para rec709
+  - log to rec709
+  - correção de cor
+  - color correction
+  - colorizar
+  - look cinematográfico
+  - s-log3
+  - rec.709
+  - kodak 2383
+  - emulação kodak
+  - cortar vídeo
+  - cortes de podcast
+  - cortes virais
+  - clipes verticais
+  - video clipping
+  - podcast clips
+  - clip a podcast
+  - vertical reels
+  - karaoke captions
+  - highlights
+  - smart clipper
+  - reels de 60s
+  - vídeo longo
+  - edição de vídeo
+  - video editing
+  - cortes de vídeo
+  - j cut
+  - l cut
+  - match cut
+  - jump cut
+  - b-roll
+  - broll
+  - inserts de vídeo
+  - banco de imagens
+  - pexels
+  - pixabay
+  - reels
+  - tiktok
+  - shorts
+  - youtube editing
+  - retenção de vídeo
+  - hyperframes
+  - remotion
+  - motion design
+  - legendas dinâmicas
+  - legendas estilo hormozi
+  - safe zones
+  - ângulos de câmera
+  - cinematography
+  - direção de fotografia
+  - walter murch
+example_briefs:
+  - "Pesquisar reels e notícias da semana sobre produtividade para usar como referência e inserts no vídeo"
+  - "Organizar o Drive em pastas por tipo de asset e gerar um índice visual da biblioteca de B-roll"
+  - "Find trending reels and news clips about AI tools to reference in the next YouTube video"
+  - "Colorizar o podcast com color grading quente, LUT de emulação Kodak 2383 e tom de pele natural"
+  - "Converter o material S-Log3 para Rec.709 com LUT técnica e aplicar color grading teal and orange sutil nos Reels"
+  - "Apply a film emulation LUT and match color between A-roll and B-roll for a YouTube video"
+  - "Cortar o vídeo do podcast em 2 reels de 60s e 1 de 90s para o Instagram com legendas dinâmicas"
+  - "Corte essa aula de 1 hora em 5 clipes verticais com os melhores momentos e legendas"
+  - "Extrair os highlights da live e gerar cortes de 40s para TikTok e Shorts"
+  - "Clip this 2-hour podcast into three 60-second vertical reels with karaoke captions"
+  - "Editar um Reel dinâmico de 60s com cortes na batida, inserts de B-roll reais e legendas estilo Hormozi"
+  - "Direcionar os ângulos de câmera e movimentos para gerar cenas cinematográficas em IA e montar com J-cuts"
+  - "Pesquisar no banco de imagens via MCP e baixar B-rolls para inserir em um vídeo sobre produtividade"
+  - "Criar overlays interativos em motion design usando HyperFrames para destacar métricas e dados no vídeo"
+  - "Submeter o corte bruto de um documentário ao conselho executivo de edição com Murch e Baxter"
+  - "Configurar pacote de legendas com destaque karaokê e respeito às safe zones do Instagram e TikTok"
+  - "Edit a high-retention YouTube video applying the Rule of Six, pattern interrupts, and dynamic motion graphics"
+  - "Build an AI cinematography shotlist with precise camera framing, lenses, and movement for generative video"
+
+not_for:
+  - live streaming ao vivo
+  - transmissao ao vivo
+  - gestao de trafego pago
+  - compra de midia paga
+  - desenvolvimento de landing page
+  - desenvolvimento de software backend
+
+squads_preferred:
+  - nirvana-video-creator
+  - veo-motion-studio
+  - vivid-pancake-keyframe-i2v
+  - nyx-videos
+
+run_budget_usd: 15.0
+
+# Portabilidade: a empresa roda em qualquer runtime com adapter no motor.
+# O motor NUNCA fixa modelo em runtime que não seja o Claude Code (o runtime decide);
+# o campo `model` dos funcionários é intenção de tier, traduzida por `model_policy`.
+runtime_requirements:
+  policy: active
+  compatible:
+    - claude-code
+    - codex
+    - antigravity-cli
+    - pi
+    - hermes
+features_required:
+  - shell_exec
+  - file_write
+  - subagent_spawning
+features_optional:
+  - mcp:davinci-resolve
+  - mcp:premiere-pro
+  - mcp:fcpxml
+  - mcp:capcut-smartcut
+  - mcp:google-drive
+  - mcp:vidiq
+
+# Tier de modelo por cargo (intenção) → o que cada runtime executa.
+# "forte" = julgamento e orquestração (diretor, conselho); "padrão" = execução com desenho decidido.
+# No Claude Code o maestro passa o alias; nos demais o runtime usa o modelo configurado
+# pelo usuário (NIRVANA_MODEL ou a config do próprio runtime), e o tier vira só `effort`.
+model_policy:
+  tiers:
+    forte: [lead-editorial-director, council-editorial-arbiter]
+    padrao: [smart-clip-editor, color-grading-colorist, cinematography-ai-director, asset-broll-curator, reference-scout, motion-hyperframes-engineer, retention-subtitles-specialist]
+  by_runtime:
+    claude-code: { forte: opus, padrao: sonnet, override_env: NIRVANA_MODEL }   # fable só por decisão do dono (NIRVANA_MODEL=fable)
+    codex: { forte: astra, padrao: inherit, note: "Astra = modelo OpenAI (decisão do dono, 02/10/2026); o motor só passa --model via NIRVANA_MODEL, senão vale o model do ~/.codex/config.toml; effort high no forte" }
+    antigravity-cli: { forte: inherit, padrao: inherit }
+    pi: { forte: inherit, padrao: inherit, note: "um runtime, 15+ providers e modelos locais; escolha pelo --provider" }
+    hermes: { forte: inherit, padrao: inherit }
+  rule: "Tier é intenção, não contrato. Um runtime sem alias usa o seu padrão; o que não muda entre runtimes é o effort (forte=high) e a aceitação por cargo."
+
+# Voz única: a pessoa fala sempre com o Merlin (persona do lead-editorial-director).
+ui:
+  client_facing_name: Merlin
+  category: video
+
+# Memória viva: o que os runs propõem e o dono promove entra pelo `nrv memory add magic-frames`
+# (injetado em todo prompt de funcionário como memória temporal ativa). Protocolo: playbooks/debriefing.md
+memory:
+  permanent:
+    enabled: true
+    files: [memory/permanent.md]
+    garbage_collection:
+      max_facts: 500
+      review_interval_days: 30
+      conflict_resolution: append   # nunca apaga: fato que muda é substituído (nrv memory supersede)
+learning:
+  loop: playbooks/debriefing.md
+  promotion_command: "nrv memory add magic-frames \"<fato>\" --source <trace>"
+  long_cycle: "nrv improver run --days=30 (mensal ou a cada dez entregas)"
