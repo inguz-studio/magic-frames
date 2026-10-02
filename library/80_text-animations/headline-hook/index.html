@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR" data-composition-variables='[{"id":"text","type":"string","label":"Texto","default":"VOCÊ ESTÁ FAZENDO ISSO ERRADO"},{"id":"font","type":"string","label":"Fonte","default":"archivoblack"},{"id":"weight","type":"number","label":"Peso","default":400},{"id":"size","type":"number","label":"Tamanho","default":78},{"id":"color","type":"color","label":"Cor","default":"#FFFFFF"},{"id":"accent","type":"color","label":"Acento","default":"#FFE600"},{"id":"stroke","type":"number","label":"Contorno","default":6},{"id":"start","type":"number","label":"Início","default":0},{"id":"duration","type":"number","label":"Duração","default":3},{"id":"y","type":"number","label":"Centro vertical","default":430}]'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="fonts/fonts.css">
+<title>Headline de gancho</title>
+<style>
+  @font-face { font-family: "archivoblack"; src: url("fonts/archivoblack/ArchivoBlack-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: block; }
+  :root { --font: Montserrat; --weight: 900; --size: 84px; --color: #fff; --accent: #FFE600; --stroke: 6px; --y: 1105px; }
+  html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: transparent; }
+  body { font-family: var(--font), sans-serif; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+  * { box-sizing: border-box; }
+#headline { position:absolute; left:80px; top:calc(var(--y) - 130px); width:860px; min-height:260px; display:flex; align-items:center; justify-content:center; text-align:center; background:transparent; } #headline-text { max-width:820px; color:var(--color); font-size:var(--size); font-weight:var(--weight); line-height:1.02; text-transform:uppercase; -webkit-text-stroke:var(--stroke) #000; paint-order:stroke fill; text-shadow:0 10px 28px rgba(0,0,0,.35); opacity:0; } #headline-accent { position:absolute; left:90px; right:90px; bottom:0; height:8px; border-radius:4px; background:var(--accent); opacity:0; transform-origin:center; }</style>
+</head>
+<body>
+<div id="stage" data-composition-id="headline-hook" data-width="1080" data-height="1920" data-duration="3"><div id="headline"><span id="headline-text"></span><span id="headline-accent" aria-hidden="true"></span></div></div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>(()=>{const FONT_MAP = { montserrat: "Montserrat", anton: "Anton", bebasneue: "Bebas Neue", oswald: "Oswald", archivoblack: "archivoblack" };
+  const vars = window.__hyperframes.getVariables();
+  const stage = document.getElementById("stage");
+  stage.dataset.duration = String(vars.duration);
+  stage.style.setProperty("--font", FONT_MAP[vars.font] || "Montserrat");
+  stage.style.setProperty("--weight", String(vars.weight));
+  stage.style.setProperty("--size", vars.size + "px");
+  stage.style.setProperty("--color", vars.color);
+  stage.style.setProperty("--accent", vars.accent);
+  stage.style.setProperty("--stroke", vars.stroke + "px");
+  stage.style.setProperty("--y", vars.y + "px");
+  const tl = gsap.timeline({ paused: true });
+ const headline=document.getElementById("headline"); const text=document.getElementById("headline-text"); const accent=document.getElementById("headline-accent"); headline.style.top=`${vars.y-130}px`; text.style.fontFamily=`"${FONT_MAP[vars.font] || "Archivo Black"}", sans-serif`; text.style.fontWeight=String(vars.weight); text.style.fontSize=`${vars.size}px`; text.style.color=vars.color; text.style.webkitTextStroke=`${vars.stroke}px #000`; text.style.paintOrder="stroke fill"; accent.style.background=vars.accent; text.textContent=vars.text; tl.fromTo(text,{opacity:0,scale:.68,y:34},{opacity:1,scale:1,y:0,duration:.48,ease:"back.out(1.7)"},vars.start); tl.fromTo(accent,{opacity:0,scaleX:0},{opacity:1,scaleX:1,duration:.38,ease:"cubic-bezier(0.16, 1, 0.3, 1)"},vars.start+.18); tl.fromTo([text,accent],{opacity:1,scale:1},{opacity:0,scale:.96,duration:.24,ease:"power2.in"},vars.duration-.24);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["headline-hook"] = tl;
+})();</script>
+</body>
+</html>

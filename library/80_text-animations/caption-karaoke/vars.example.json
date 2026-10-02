@@ -1,0 +1,13 @@
+{
+  "text": "ISSO MUDA TUDO",
+  "font": "montserrat",
+  "weight": 900,
+  "size": 76,
+  "color": "#FFFFFF",
+  "accent": "#FFE600",
+  "stroke": 6,
+  "start": 0,
+  "duration": 3,
+  "y": 1105,
+  "words": "[{\"word\":\"VOCÊ\",\"start\":0.12,\"end\":0.38},{\"word\":\"NÃO\",\"start\":0.42,\"end\":0.62},{\"word\":\"PRECISA\",\"start\":0.66,\"end\":1.02},{\"word\":\"DISSO.\",\"start\":1.08,\"end\":1.44},{\"word\":\"AGORA\",\"start\":1.9,\"end\":2.28}]"
+}

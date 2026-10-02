@@ -1,0 +1,52 @@
+id: caption-karaoke
+nome: "Legenda karaokê"
+uso: legenda
+descricao: "Legenda sincronizada com palavra ativa destacada e grupo estável."
+canvas: { largura: 1080, altura: 1920, fundo: transparente }
+variaveis:
+  - nome: text
+    tipo: string
+    padrao: "ISSO MUDA TUDO"
+  - nome: font
+    tipo: string
+    padrao: "montserrat"
+  - nome: weight
+    tipo: number
+    padrao: 900
+    limites: "100–900 conforme a fonte"
+  - nome: size
+    tipo: number
+    padrao: 76
+    limites: "72–84 px"
+  - nome: color
+    tipo: color
+    padrao: "#FFFFFF"
+  - nome: accent
+    tipo: color
+    padrao: "#FFE600"
+  - nome: stroke
+    tipo: number
+    padrao: 6
+    limites: "4–6 px"
+  - nome: start
+    tipo: number
+    padrao: 0
+    limites: ">= 0 s"
+  - nome: duration
+    tipo: number
+    padrao: 3
+    limites: "> 0 s"
+  - nome: y
+    tipo: number
+    padrao: 1105
+    limites: "dentro da zona segura declarada"
+  - nome: words
+    tipo: string
+    padrao: "[{\"word\":\"VOCÊ\",\"start\":0.12,\"end\":0.38},{\"word\":\"NÃO\",\"start\":0.42,\"end\":0.62},{\"word\":\"PRECISA\",\"start\":0.66,\"end\":1.02},{\"word\":\"DISSO.\",\"start\":1.08,\"end\":1.44},{\"word\":\"AGORA\",\"start\":1.9,\"end\":2.28}]"
+    limites: "array JSON serializado; 1–3 palavras por grupo"
+formatos_que_combinam: [todos]
+zona_segura: "X 80–940; Y 1000–1230; centro Y=1105"
+render:
+  fps: 30
+  alpha: true
+  formatos: [webm-vp9, prores-4444]

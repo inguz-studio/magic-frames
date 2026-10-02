@@ -1,0 +1,48 @@
+id: typewriter
+nome: "Máquina de escrever"
+uso: título
+descricao: "Texto revelado caractere a caractere com cursor controlado pela timeline."
+canvas: { largura: 1080, altura: 1920, fundo: transparente }
+variaveis:
+  - nome: text
+    tipo: string
+    padrao: "A PROVA ESTÁ NOS DADOS"
+  - nome: font
+    tipo: string
+    padrao: "oswald"
+  - nome: weight
+    tipo: number
+    padrao: 700
+    limites: "100–900 conforme a fonte"
+  - nome: size
+    tipo: number
+    padrao: 76
+    limites: "72–180 px conforme o uso"
+  - nome: color
+    tipo: color
+    padrao: "#FFFFFF"
+  - nome: accent
+    tipo: color
+    padrao: "#FFE600"
+  - nome: stroke
+    tipo: number
+    padrao: 6
+    limites: "0–6 px"
+  - nome: start
+    tipo: number
+    padrao: 0
+    limites: ">= 0 s"
+  - nome: duration
+    tipo: number
+    padrao: 3.5
+    limites: "> 0 s"
+  - nome: y
+    tipo: number
+    padrao: 430
+    limites: "dentro da zona segura declarada"
+formatos_que_combinam: [02-case-studies, 15-personal-learning-epiphany]
+zona_segura: "X 80–940; Y 300–560; centro Y=430"
+render:
+  fps: 30
+  alpha: true
+  formatos: [webm-vp9, prores-4444]

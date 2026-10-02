@@ -4,11 +4,18 @@ Um preset por pasta. Cada preset é uma composição HyperFrames (HTML/CSS/GSAP)
 
 ```
 <preset-id>/
-├── index.html        # composição; carrega ../../70_fonts/fonts.css; root timeline em window.__timelines
+├── index.html        # composição; carrega fonts/fonts.css (ver abaixo); root timeline em window.__timelines
+├── fonts             # link simbólico relativo para ../../70_fonts (o HyperFrames recusa caminhos com ../ acima da raiz do preset)
 ├── preset.yaml       # nome, uso, variáveis (nome, tipo, padrão), formatos que combinam, zona segura
 ├── vars.example.json # exemplo de variáveis (`--variables-file`) e linha-modelo para `render --batch`
-└── preview.png       # frame-chave gerado por `npx hyperframes snapshot`
+├── preview.png       # frame-chave gerado por `npx hyperframes snapshot`
+├── sample.webm       # render de teste com alfa (VP9) a partir de vars.example.json
+└── frames/           # quatro quadros do sample.webm (15, 40, 65 e 90% da duração) sobre fundo escuro: a prova visual
 ```
+
+Fontes: cada preset carrega `fonts/fonts.css` através do link simbólico `fonts -> ../../70_fonts`; um caminho com `../` direto no HTML gera erro de lint (StaticGuard) e o Studio não resolve. O HyperFrames também busca sozinho no Google Fonts as famílias que aparecem estaticamente no CSS, então declare a família escolhida no CSS, não só por variável.
+
+Verificação por quadro: extrair frames do `test.webm` com `ffmpeg -c:v libvpx-vp9 -i test.webm -ss <t> -frames:v 1 -update 1 ...` (o `-ss` depois do `-i`; antes dele o plano alfa chega vazio e o quadro parece em branco) e compor sobre fundo escuro antes de julgar.
 
 Mecânica do HyperFrames: as variáveis são declaradas em `data-composition-variables` no `<html>` (id, type string|number|color|boolean|enum, label, default) e lidas com `window.__hyperframes.getVariables()`; o render recebe `--variables '{...}'`, `--variables-file vars.json` ou `--batch rows.json`, e `--strict-variables` recusa variável desconhecida. Fundo de `html`, `body` e da composição sem pintura, senão o alfa vira pixel opaco. Timeline GSAP `paused: true` registrada em `window.__timelines[<data-composition-id>]`, só `fromTo` em transform e opacity, sem `Math.random()` e sem `repeat: -1`. Preview: `npx hyperframes snapshot . --at <segundos> --zoom '#stage'`.
 

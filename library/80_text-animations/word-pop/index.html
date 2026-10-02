@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR" data-composition-variables='[{"id":"text","type":"string","label":"Texto","default":"ISSO MUDA TUDO"},{"id":"font","type":"string","label":"Fonte","default":"archivoblack"},{"id":"weight","type":"number","label":"Peso","default":400},{"id":"size","type":"number","label":"Tamanho","default":72},{"id":"color","type":"color","label":"Cor","default":"#FFFFFF"},{"id":"accent","type":"color","label":"Acento","default":"#FFE600"},{"id":"stroke","type":"number","label":"Contorno","default":6},{"id":"start","type":"number","label":"Início","default":0},{"id":"duration","type":"number","label":"Duração","default":3},{"id":"y","type":"number","label":"Centro vertical","default":1105},{"id":"words","type":"string","label":"Palavras com tempos","default":"[{\"word\":\"VOCÊ\",\"start\":0.12,\"end\":0.38},{\"word\":\"NÃO\",\"start\":0.42,\"end\":0.62},{\"word\":\"PRECISA\",\"start\":0.66,\"end\":1.02},{\"word\":\"DISSO.\",\"start\":1.08,\"end\":1.44},{\"word\":\"AGORA\",\"start\":1.9,\"end\":2.28}]"}]'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="fonts/fonts.css">
+<title>Palavra que estoura</title>
+<style>
+  @font-face { font-family: "archivoblack"; src: url("fonts/archivoblack/ArchivoBlack-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: block; }
+  :root { --font: Montserrat; --weight: 900; --size: 84px; --color: #fff; --accent: #FFE600; --stroke: 6px; --y: 1105px; }
+  html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: transparent; }
+  body { font-family: var(--font), sans-serif; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+  * { box-sizing: border-box; }
+
+      #caption-region { position: absolute; left: 80px; top: 1000px; width: 860px; height: 230px; background: transparent; }
+      .caption-group { position: absolute; left: 0; top: calc(var(--y) - 1000px - 58px); width: 100%; max-width: 860px; min-height: 116px; display: flex; align-items: center; justify-content: center; gap: 0.22em; color: var(--color); font-size: var(--size); font-weight: var(--weight); line-height: 1; white-space: nowrap; opacity: 0; transform-origin: center; }
+      .word { position: relative; display: inline-block; }
+      .word-base, .word-active { display: inline-block; -webkit-text-stroke: var(--stroke) #000; paint-order: stroke fill; text-shadow: 0 6px 18px rgba(0,0,0,.35); }
+      .word-active { position: absolute; inset: 0; color: var(--accent); opacity: 0; transform-origin: center; }
+    </style>
+</head>
+<body>
+<div id="stage" data-composition-id="word-pop" data-width="1080" data-height="1920" data-duration="3"><div id="caption-region" aria-label="Legenda sincronizada"></div></div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>(()=>{
+    const FONT_MAP = { montserrat: "Montserrat", anton: "Anton", bebasneue: "Bebas Neue", oswald: "Oswald", archivoblack: "archivoblack" };
+    
+  const vars = window.__hyperframes.getVariables();
+  const stage = document.getElementById("stage");
+  stage.dataset.duration = String(vars.duration);
+  stage.style.setProperty("--font", FONT_MAP[vars.font] || "Montserrat");
+  stage.style.setProperty("--weight", String(vars.weight));
+  stage.style.setProperty("--size", vars.size + "px");
+  stage.style.setProperty("--color", vars.color);
+  stage.style.setProperty("--accent", vars.accent);
+  stage.style.setProperty("--stroke", vars.stroke + "px");
+  stage.style.setProperty("--y", vars.y + "px");
+  const tl = gsap.timeline({ paused: true });
+
+    if (vars.size < 72 || vars.size > 84) throw new Error("size deve ficar entre 72 e 84 px");
+    if (vars.stroke < 4 || vars.stroke > 6) throw new Error("stroke deve ficar entre 4 e 6 px");
+    if (vars.y < 1053 || vars.y > 1177) throw new Error("y viola a faixa segura da legenda");
+    if (!["#FFE600", "#39FF14", "#00F0FF"].includes(String(vars.accent).toUpperCase())) throw new Error("accent fora da paleta canônica");
+    let words;
+    try { words = JSON.parse(vars.words); } catch { throw new Error("words precisa ser um array JSON serializado"); }
+    if (!Array.isArray(words) || words.length === 0) throw new Error("words precisa conter ao menos uma palavra");
+    words.forEach((item, index) => {
+      if (!item || typeof item.word !== "string" || !item.word.trim()) throw new Error("word inválida no índice " + index);
+      if (!Number.isFinite(item.start) || !Number.isFinite(item.end) || item.start < 0 || item.end <= item.start) throw new Error("tempo inválido no índice " + index);
+      if (index && item.start < words[index - 1].end) throw new Error("words fora de ordem ou sobrepostas");
+      item.word = item.word.trim().toLocaleUpperCase("pt-BR");
+    });
+    const lastEnd = vars.start + words[words.length - 1].end;
+    if (vars.duration < lastEnd) throw new Error("duration corta a última palavra");
+    const groups = [];
+    let current = [];
+    words.forEach((word, index) => {
+      current.push({ ...word, index });
+      const next = words[index + 1];
+      const closes = current.length === 3 || /[.!?;:]$/.test(word.word) || !next || next.start - word.end >= 0.35;
+      if (closes) { groups.push(current); current = []; }
+    });
+    const region = document.getElementById("caption-region");
+    groups.forEach((group, groupIndex) => {
+      const groupEl = document.createElement("div");
+      groupEl.className = "caption-group";
+      groupEl.dataset.groupIndex = String(groupIndex);
+      groupEl.setAttribute("data-layout-allow-overlap", "true");
+      groupEl.setAttribute("aria-label", group.map((word) => word.word).join(" "));
+      groupEl.style.top = `${vars.y - 1000 - 58}px`;
+      groupEl.style.fontFamily = `"${FONT_MAP[vars.font] || "Montserrat"}", sans-serif`;
+      groupEl.style.fontWeight = String(vars.weight);
+      groupEl.style.fontSize = `${vars.size}px`;
+      groupEl.style.color = vars.color;
+      group.forEach((word) => {
+        const wrapper = document.createElement("span");
+        wrapper.className = "word";
+        wrapper.dataset.wordIndex = String(word.index);
+        const base = document.createElement("span");
+        base.className = "word-base";
+        base.setAttribute("data-layout-allow-overlap", "true");
+        base.textContent = word.word;
+        base.style.webkitTextStroke = `${vars.stroke}px #000`;
+        base.style.paintOrder = "stroke fill";
+        const active = document.createElement("span");
+        active.className = "word-active";
+        active.setAttribute("data-layout-allow-overlap", "true");
+        active.setAttribute("data-layout-allow-overflow", "true");
+        active.textContent = word.word;
+        active.setAttribute("aria-hidden", "true");
+        active.style.color = vars.accent;
+        active.style.webkitTextStroke = `${vars.stroke}px #000`;
+        active.style.paintOrder = "stroke fill";
+        wrapper.append(base, active);
+        groupEl.append(wrapper);
+      });
+      region.append(groupEl);
+      const groupStart = vars.start + group[0].start;
+      const groupEnd = vars.start + group[group.length - 1].end;
+      tl.fromTo(groupEl, { opacity: 0, scale: 0.96 }, { opacity: 1, scale: 1, duration: 0.08, ease: "cubic-bezier(0.16, 1, 0.3, 1)", immediateRender: false }, groupStart);
+      tl.fromTo(groupEl, { opacity: 1, scale: 1 }, { opacity: 0, scale: 1, duration: 0.06, ease: "power2.in", immediateRender: false }, Math.max(groupStart + 0.08, groupEnd - 0.06));
+      group.forEach((word, localIndex) => {
+        const active = groupEl.querySelectorAll(".word-active")[localIndex];
+        const wordStart = vars.start + word.start;
+        const wordEnd = vars.start + word.end;
+        
+        const available = wordEnd - wordStart;
+        const enter = Math.min(0.14, available * 0.55);
+        const settle = Math.min(0.10, Math.max(0.02, available - enter - 0.02));
+        tl.fromTo(active, { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1.1, duration: enter, ease: "back.out(1.7)", immediateRender: false }, wordStart);
+        tl.fromTo(active, { opacity: 1, scale: 1.1 }, { opacity: 1, scale: 1, duration: settle, ease: "cubic-bezier(0.16, 1, 0.3, 1)", immediateRender: false }, wordStart + enter);
+        
+        tl.fromTo(active, { opacity: 1, scale: 1 }, { opacity: 0, scale: 1, duration: Math.min(0.06, (wordEnd - wordStart) * 0.25), ease: "power2.in", immediateRender: false }, Math.max(wordStart, wordEnd - 0.06));
+      });
+    });
+    requestIdleCallback(() => {
+      document.querySelectorAll(".caption-group").forEach((el) => {
+        const box = el.getBoundingClientRect();
+        if (box.left < 80 || box.right > 940 || box.top < 1000 || box.bottom > 1230) throw new Error("grupo de legenda fora da zona segura");
+      });
+    });
+    
+  window.__timelines = window.__timelines || {};
+  window.__timelines["word-pop"] = tl;
+
+  })();</script>
+</body>
+</html>

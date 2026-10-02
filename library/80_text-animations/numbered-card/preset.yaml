@@ -1,0 +1,51 @@
+id: numbered-card
+nome: "Card numerado"
+uso: título
+descricao: "Número grande e rótulo para listas, níveis e rankings."
+canvas: { largura: 1080, altura: 1920, fundo: transparente }
+variaveis:
+  - nome: text
+    tipo: string
+    padrao: "DEFINA A PRIORIDADE"
+  - nome: font
+    tipo: string
+    padrao: "bebasneue"
+  - nome: weight
+    tipo: number
+    padrao: 400
+    limites: "100–900 conforme a fonte"
+  - nome: size
+    tipo: number
+    padrao: 64
+    limites: "48–180 px conforme o uso"
+  - nome: color
+    tipo: color
+    padrao: "#FFFFFF"
+  - nome: accent
+    tipo: color
+    padrao: "#FFE600"
+  - nome: stroke
+    tipo: number
+    padrao: 6
+    limites: "0–6 px"
+  - nome: start
+    tipo: number
+    padrao: 0
+    limites: ">= 0 s"
+  - nome: duration
+    tipo: number
+    padrao: 3.4
+    limites: "> 0 s"
+  - nome: y
+    tipo: number
+    padrao: 500
+    limites: "dentro da zona segura declarada"
+  - nome: number
+    tipo: number
+    padrao: 3
+formatos_que_combinam: [06-listicle, 10-ranking-tier-list, 11-levels]
+zona_segura: "X 80–940; Y 300–700; centro Y=500"
+render:
+  fps: 30
+  alpha: true
+  formatos: [webm-vp9, prores-4444]

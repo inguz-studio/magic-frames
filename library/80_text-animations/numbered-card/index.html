@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR" data-composition-variables='[{"id":"text","type":"string","label":"Texto","default":"DEFINA A PRIORIDADE"},{"id":"font","type":"string","label":"Fonte","default":"bebasneue"},{"id":"weight","type":"number","label":"Peso","default":400},{"id":"size","type":"number","label":"Tamanho","default":64},{"id":"color","type":"color","label":"Cor","default":"#FFFFFF"},{"id":"accent","type":"color","label":"Acento","default":"#FFE600"},{"id":"stroke","type":"number","label":"Contorno","default":6},{"id":"start","type":"number","label":"Início","default":0},{"id":"duration","type":"number","label":"Duração","default":3.4},{"id":"y","type":"number","label":"Centro vertical","default":500},{"id":"number","type":"number","label":"Número","default":3}]'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="fonts/fonts.css">
+<title>Card numerado</title>
+<style>
+  @font-face { font-family: "bebasneue"; src: url("fonts/bebasneue/BebasNeue-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: block; }
+  :root { --font: Montserrat; --weight: 900; --size: 84px; --color: #fff; --accent: #FFE600; --stroke: 6px; --y: 1105px; }
+  html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: transparent; }
+  body { font-family: var(--font), sans-serif; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+  * { box-sizing: border-box; }
+#card { position:absolute; left:138px; top:calc(var(--y) - 170px); width:800px; height:340px; padding:44px 52px; border:2px solid rgba(255,255,255,.22); border-radius:32px; background:rgba(8,12,20,.7); backdrop-filter:blur(16px); overflow:hidden; opacity:0; } #card-number { position:absolute; right:38px; top:18px; color:var(--accent); font:400 210px "Bebas Neue",sans-serif; line-height:1; opacity:.22; } #card-label { position:absolute; left:52px; bottom:66px; width:610px; color:var(--color); font-size:var(--size); font-weight:var(--weight); line-height:1.02; text-transform:uppercase; } #card-rule { position:absolute; left:52px; bottom:38px; width:300px; height:10px; border-radius:5px; background:var(--accent); transform-origin:left; }</style>
+</head>
+<body>
+<div id="stage" data-composition-id="numbered-card" data-width="1080" data-height="1920" data-duration="3.4"><div id="card"><div id="card-number"></div><div id="card-label"></div><div id="card-rule"></div></div></div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>(()=>{const FONT_MAP = { montserrat: "Montserrat", anton: "Anton", bebasneue: "bebasneue", oswald: "Oswald", archivoblack: "Archivo Black" };
+  const vars = window.__hyperframes.getVariables();
+  const stage = document.getElementById("stage");
+  stage.dataset.duration = String(vars.duration);
+  stage.style.setProperty("--font", FONT_MAP[vars.font] || "Montserrat");
+  stage.style.setProperty("--weight", String(vars.weight));
+  stage.style.setProperty("--size", vars.size + "px");
+  stage.style.setProperty("--color", vars.color);
+  stage.style.setProperty("--accent", vars.accent);
+  stage.style.setProperty("--stroke", vars.stroke + "px");
+  stage.style.setProperty("--y", vars.y + "px");
+  const tl = gsap.timeline({ paused: true });
+ const card=document.getElementById("card"); const number=document.getElementById("card-number"); const label=document.getElementById("card-label"); const rule=document.getElementById("card-rule"); card.style.top=`${vars.y-170}px`; label.style.fontFamily=`"${FONT_MAP[vars.font] || "Bebas Neue"}", sans-serif`; label.style.fontWeight=String(vars.weight); label.style.fontSize=`${vars.size}px`; label.style.color=vars.color; number.style.color=vars.accent; rule.style.background=vars.accent; number.textContent=String(vars.number).padStart(2,"0"); label.textContent=vars.text; tl.fromTo(card,{opacity:0,y:70,scale:.94},{opacity:1,y:0,scale:1,duration:.56,ease:"back.out(1.35)"},vars.start); tl.fromTo(number,{opacity:0,x:80,rotation:6},{opacity:1,x:0,rotation:0,duration:.62,ease:"cubic-bezier(0.16, 1, 0.3, 1)"},vars.start+.12); tl.fromTo(rule,{opacity:0,scaleX:0},{opacity:1,scaleX:1,duration:.42,ease:"cubic-bezier(0.16, 1, 0.3, 1)"},vars.start+.24); tl.fromTo(card,{opacity:1,y:0},{opacity:0,y:-30,duration:.28,ease:"power2.in"},vars.duration-.28);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["numbered-card"] = tl;
+})();</script>
+</body>
+</html>

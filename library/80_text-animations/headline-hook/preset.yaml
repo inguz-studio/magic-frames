@@ -1,0 +1,48 @@
+id: headline-hook
+nome: "Headline de gancho"
+uso: título
+descricao: "Headline de alto impacto para os primeiros três segundos."
+canvas: { largura: 1080, altura: 1920, fundo: transparente }
+variaveis:
+  - nome: text
+    tipo: string
+    padrao: "VOCÊ ESTÁ FAZENDO ISSO ERRADO"
+  - nome: font
+    tipo: string
+    padrao: "archivoblack"
+  - nome: weight
+    tipo: number
+    padrao: 400
+    limites: "100–900 conforme a fonte"
+  - nome: size
+    tipo: number
+    padrao: 78
+    limites: "72–180 px conforme o uso"
+  - nome: color
+    tipo: color
+    padrao: "#FFFFFF"
+  - nome: accent
+    tipo: color
+    padrao: "#FFE600"
+  - nome: stroke
+    tipo: number
+    padrao: 6
+    limites: "0–6 px"
+  - nome: start
+    tipo: number
+    padrao: 0
+    limites: ">= 0 s"
+  - nome: duration
+    tipo: number
+    padrao: 3
+    limites: "> 0 s"
+  - nome: y
+    tipo: number
+    padrao: 430
+    limites: "dentro da zona segura declarada"
+formatos_que_combinam: [todos]
+zona_segura: "X 80–940; Y 300–560; centro Y=430"
+render:
+  fps: 30
+  alpha: true
+  formatos: [webm-vp9, prores-4444]

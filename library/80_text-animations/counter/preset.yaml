@@ -1,0 +1,60 @@
+id: counter
+nome: "Contador numérico"
+uso: dado
+descricao: "Número cresce de zero ao valor, com prefixo e sufixo parametrizados."
+canvas: { largura: 1080, altura: 1920, fundo: transparente }
+variaveis:
+  - nome: text
+    tipo: string
+    padrao: "RESULTADO"
+  - nome: font
+    tipo: string
+    padrao: "bebasneue"
+  - nome: weight
+    tipo: number
+    padrao: 400
+    limites: "100–900 conforme a fonte"
+  - nome: size
+    tipo: number
+    padrao: 150
+    limites: "72–180 px conforme o uso"
+  - nome: color
+    tipo: color
+    padrao: "#FFFFFF"
+  - nome: accent
+    tipo: color
+    padrao: "#FFE600"
+  - nome: stroke
+    tipo: number
+    padrao: 6
+    limites: "0–6 px"
+  - nome: start
+    tipo: number
+    padrao: 0
+    limites: ">= 0 s"
+  - nome: duration
+    tipo: number
+    padrao: 3.2
+    limites: "> 0 s"
+  - nome: y
+    tipo: number
+    padrao: 430
+    limites: "dentro da zona segura declarada"
+  - nome: value
+    tipo: number
+    padrao: 250
+  - nome: prefix
+    tipo: string
+    padrao: "+"
+  - nome: suffix
+    tipo: string
+    padrao: "%"
+  - nome: decimals
+    tipo: number
+    padrao: 0
+formatos_que_combinam: [02-case-studies, 10-ranking-tier-list, 08-a-vs-b-comparison]
+zona_segura: "X 80–940; Y 300–560; centro Y=430"
+render:
+  fps: 30
+  alpha: true
+  formatos: [webm-vp9, prores-4444]

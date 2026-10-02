@@ -1,0 +1,51 @@
+id: lower-third
+nome: "Lower third de nome"
+uso: lower-third
+descricao: "Identificação com barra de acento, entrada em wipe e saída suave."
+canvas: { largura: 1080, altura: 1920, fundo: transparente }
+variaveis:
+  - nome: text
+    tipo: string
+    padrao: "MARINA COSTA"
+  - nome: font
+    tipo: string
+    padrao: "montserrat"
+  - nome: weight
+    tipo: number
+    padrao: 800
+    limites: "100–900 conforme a fonte"
+  - nome: size
+    tipo: number
+    padrao: 58
+    limites: "48–180 px conforme o uso"
+  - nome: color
+    tipo: color
+    padrao: "#FFFFFF"
+  - nome: accent
+    tipo: color
+    padrao: "#FFE600"
+  - nome: stroke
+    tipo: number
+    padrao: 6
+    limites: "0–6 px"
+  - nome: start
+    tipo: number
+    padrao: 0
+    limites: ">= 0 s"
+  - nome: duration
+    tipo: number
+    padrao: 4
+    limites: "> 0 s"
+  - nome: y
+    tipo: number
+    padrao: 1050
+    limites: "dentro da zona segura declarada"
+  - nome: role
+    tipo: string
+    padrao: "DIRETORA DE PRODUTO"
+formatos_que_combinam: [09-qea-interview-clips, 17-personal-update, 18-about-me]
+zona_segura: "X 80–940; Y 900–1230; âncora esquerda X=100"
+render:
+  fps: 30
+  alpha: true
+  formatos: [webm-vp9, prores-4444]

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR" data-composition-variables='[{"id":"text","type":"string","label":"Texto","default":"RESULTADO"},{"id":"font","type":"string","label":"Fonte","default":"bebasneue"},{"id":"weight","type":"number","label":"Peso","default":400},{"id":"size","type":"number","label":"Tamanho","default":150},{"id":"color","type":"color","label":"Cor","default":"#FFFFFF"},{"id":"accent","type":"color","label":"Acento","default":"#FFE600"},{"id":"stroke","type":"number","label":"Contorno","default":6},{"id":"start","type":"number","label":"Início","default":0},{"id":"duration","type":"number","label":"Duração","default":3.2},{"id":"y","type":"number","label":"Centro vertical","default":430},{"id":"value","type":"number","label":"Valor final","default":250},{"id":"prefix","type":"string","label":"Prefixo","default":"+"},{"id":"suffix","type":"string","label":"Sufixo","default":"%"},{"id":"decimals","type":"number","label":"Casas decimais","default":0}]'>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="fonts/fonts.css">
+<title>Contador numérico</title>
+<style>
+  @font-face { font-family: "bebasneue"; src: url("fonts/bebasneue/BebasNeue-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: block; }
+  :root { --font: Montserrat; --weight: 900; --size: 84px; --color: #fff; --accent: #FFE600; --stroke: 6px; --y: 1105px; }
+  html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: transparent; }
+  body { font-family: var(--font), sans-serif; }
+  #stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: transparent; }
+  * { box-sizing: border-box; }
+.counter-wrap { position:absolute; left:80px; top:calc(var(--y) - 130px); width:860px; height:260px; display:flex; flex-direction:column; align-items:center; justify-content:center; color:var(--color); background:transparent; } #counter-value { font-size:var(--size); font-weight:var(--weight); line-height:.88; letter-spacing:.01em; -webkit-text-stroke:var(--stroke) #000; paint-order:stroke fill; text-shadow:0 8px 24px rgba(0,0,0,.3); opacity:0; } #counter-label { margin-top:22px; color:var(--accent); font:700 34px Montserrat,sans-serif; letter-spacing:.12em; text-transform:uppercase; opacity:0; }</style>
+</head>
+<body>
+<div id="stage" data-composition-id="counter" data-width="1080" data-height="1920" data-duration="3.2"><div class="counter-wrap"><div id="counter-value"></div><div id="counter-label"></div></div></div>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+<script>(()=>{const FONT_MAP = { montserrat: "Montserrat", anton: "Anton", bebasneue: "bebasneue", oswald: "Oswald", archivoblack: "Archivo Black" };
+  const vars = window.__hyperframes.getVariables();
+  const stage = document.getElementById("stage");
+  stage.dataset.duration = String(vars.duration);
+  stage.style.setProperty("--font", FONT_MAP[vars.font] || "Montserrat");
+  stage.style.setProperty("--weight", String(vars.weight));
+  stage.style.setProperty("--size", vars.size + "px");
+  stage.style.setProperty("--color", vars.color);
+  stage.style.setProperty("--accent", vars.accent);
+  stage.style.setProperty("--stroke", vars.stroke + "px");
+  stage.style.setProperty("--y", vars.y + "px");
+  const tl = gsap.timeline({ paused: true });
+ const wrap=document.querySelector(".counter-wrap"); const valueEl=document.getElementById("counter-value"); const label=document.getElementById("counter-label"); wrap.style.top=`${vars.y-130}px`; valueEl.style.fontFamily=`"${FONT_MAP[vars.font] || "Bebas Neue"}", sans-serif`; valueEl.style.fontWeight=String(vars.weight); valueEl.style.fontSize=`${vars.size}px`; valueEl.style.color=vars.color; valueEl.style.webkitTextStroke=`${vars.stroke}px #000`; valueEl.style.paintOrder="stroke fill"; label.style.color=vars.accent; label.textContent=vars.text; const state={v:0}; const format=()=>{valueEl.textContent=vars.prefix+Number(state.v).toLocaleString("pt-BR",{minimumFractionDigits:vars.decimals,maximumFractionDigits:vars.decimals})+vars.suffix}; format(); tl.fromTo(valueEl,{opacity:0,scale:.72},{opacity:1,scale:1,duration:.4,ease:"back.out(1.5)"},vars.start); tl.fromTo(state,{v:0},{v:vars.value,duration:Math.max(.5,vars.duration-vars.start-1),ease:"power3.out",onUpdate:format},vars.start); tl.fromTo(label,{opacity:0,y:24},{opacity:1,y:0,duration:.42,ease:"cubic-bezier(0.16, 1, 0.3, 1)"},vars.start+.35); tl.fromTo([valueEl,label],{opacity:1,y:0},{opacity:0,y:-18,duration:.25,ease:"power2.in"},vars.duration-.25);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["counter"] = tl;
+})();</script>
+</body>
+</html>
