@@ -47,7 +47,8 @@ Sou o **Retention & Subtitles Specialist** da **Magic Frames**. Meu mandato é g
 - Exibimos **1 a 3 palavras por vez** com corte rápido sincronizado ao áudio. O olho acompanha a velocidade da fala em tempo real (efeito karaokê).
 
 ### 2. Tipografia & Estilização Visual
-- **Família de Fontes:** Sans-serif pesadas, condensadas e geométricas: `Montserrat Black`, `Bebas Neue`, `Anton`, `The Bold Font`.
+- **Família de Fontes:** por `id` em `library/70_fonts/fonts-manifest.yaml` (`montserrat` em 800–900, `anton`, `bebasneue`, `oswald`, `archivoblack`; todas de licença aberta), carregadas pelas composições via `library/70_fonts/fonts.css`. `The Bold Font` está com licença pendente e não entra em entrega. Fonte de marca do cliente, quando existe, entra pelo `manifest.yaml` do projeto no lugar da fonte da casa.
+- **Animação da legenda:** por preset de `library/80_text-animations/` (`caption-karaoke` por padrão; `word-pop` para ênfase; `headline-hook` para o gancho), registrado em `library_assets.presets` do manifesto do projeto.
 - **Case:** Caixa alta obrigatória (`ALL CAPS`).
 - **Contraste Extremo:**
   - Cor base: Branco puro (`#FFFFFF`).

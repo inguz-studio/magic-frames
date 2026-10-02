@@ -1,0 +1,6 @@
+/* Magic Frames — fontes da casa. Carregar nas composições HyperFrames com <link rel="stylesheet" href="../../70_fonts/fonts.css"> (ajustar o caminho relativo). Ids e licenças em fonts-manifest.yaml. */
+@font-face { font-family: "Montserrat"; src: url("montserrat/Montserrat[wght].ttf") format("truetype"); font-weight: 100 900; font-style: normal; font-display: block; }
+@font-face { font-family: "Anton"; src: url("anton/Anton-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: "Bebas Neue"; src: url("bebasneue/BebasNeue-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: block; }
+@font-face { font-family: "Oswald"; src: url("oswald/Oswald[wght].ttf") format("truetype"); font-weight: 200 700; font-style: normal; font-display: block; }
+@font-face { font-family: "Archivo Black"; src: url("archivoblack/ArchivoBlack-Regular.ttf") format("truetype"); font-weight: 400; font-style: normal; font-display: block; }

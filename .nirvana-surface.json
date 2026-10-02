@@ -4,7 +4,7 @@
   "slug": "magic-frames",
   "contract_version": "2.0.0",
   "surface_hash": "f113546139d59440",
-  "prose_hash": "8dd7571f4607149d",
+  "prose_hash": "10a6a374556c80ab",
   "entries": {
     "domain:ai_video_direction": {
       "type": "domain",
@@ -40,7 +40,7 @@
     },
     "employee:asset-broll-curator": {
       "type": "employee",
-      "hash": "ba54b939e521a41f"
+      "hash": "8913ab283e37cfa1"
     },
     "employee:cinematography-ai-director": {
       "type": "employee",
@@ -56,11 +56,11 @@
     },
     "employee:lead-editorial-director": {
       "type": "employee",
-      "hash": "b5478b61b0453961"
+      "hash": "4aaf626aa728ad59"
     },
     "employee:motion-hyperframes-engineer": {
       "type": "employee",
-      "hash": "595564be274b50eb"
+      "hash": "b8b3a7b0d9eee878"
     },
     "employee:reference-scout": {
       "type": "employee",
@@ -68,11 +68,11 @@
     },
     "employee:retention-subtitles-specialist": {
       "type": "employee",
-      "hash": "526606ebcf76273b"
+      "hash": "2b3b5fa4c43373ac"
     },
     "employee:smart-clip-editor": {
       "type": "employee",
-      "hash": "b62309a7529404bc"
+      "hash": "24da1d95ec6bb38f"
     },
     "org-chart:org-chart.yaml": {
       "type": "org-chart",
@@ -140,7 +140,7 @@
     },
     "routing:routing.yaml": {
       "type": "routing",
-      "hash": "e970195dea8776a1"
+      "hash": "213800024dc940c9"
     }
   }
 }

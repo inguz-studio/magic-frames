@@ -75,7 +75,7 @@ Esta seção é a única fonte dos números. Funcionários e playbooks referenci
 
 ### 5.3 Estilo
 - 1 a 3 palavras por tela, ALL CAPS, palavra ativa destacada em sincronia com a transcrição por palavra (whisper-cpp).
-- Fontes: Montserrat Black, Anton, Bebas Neue, The Bold Font. Tamanho base 72–84px em 1080x1920.
+- Fontes: por id em `library/70_fonts/fonts-manifest.yaml` (`montserrat` 800–900, `anton`, `bebasneue`, `oswald`, `archivoblack`; todas OFL, com `fonts.css` pronto). `The Bold Font`: licença pendente, fora de entrega. Tamanho base 72–84px em 1080x1920. Animação da legenda por preset de `library/80_text-animations/` (`caption-karaoke` padrão).
 - Cores: base `#FFFFFF`; destaque `#FFE600` (amarelo), `#39FF14` (verde) ou `#00F0FF` (ciano). Uma cor de destaque por vídeo.
 - Stroke preto **4 a 6px**, sombra projetada suave.
 
@@ -237,6 +237,8 @@ Protocolo completo: `playbooks/debriefing.md`. Resumo: todo run escreve lições
 - **Merlin** é a única voz: a pessoa fala sempre com o Lead Editorial Director na persona Merlin (definida no arquivo do cargo, para viajar com a empresa). Nenhum outro cargo atende o cliente.
 - **Biblioteca de assets:** `playbooks/asset-library.md` (taxonomia igual no disco e no Google Drive, índice com fonte e licença, contact sheets por `ffmpeg tile`). Dono: curador de B-roll.
 - **Biblioteca dentro da empresa (`library/`, viaja no pacote):** 17 LUTs em `40_luts/` (14 looks numerados sem autor, 2 'LA CREME REC 709', 1 técnica DJI Avata 2 D-Log M → Rec.709), 122 efeitos sonoros em `60_audio/sfx/` (packs 'SFX FPV [Mini Disc]' e 'Filmkid SFX Bundle'), 30 molduras PNG com alfa em `50_overlays/frames/` (@harrisonniap). Cada pasta tem manifesto com origem e licença; em 02/10/2026 tudo está `pendente` até o dono confirmar compra/termos, e o que está pendente não entra em entrega nem no pacote de venda.
+- **Fontes, animações de texto e formatos (`library/70_fonts`, `80_text-animations`, `90_formats`):** fontes por id com `fonts.css`; presets HyperFrames parametrizados (variáveis, `vars.example.json`, preview) com índice em `presets-manifest.yaml`; 20 cartões de formato de vídeo curto com os vídeos de exemplo, transcrição e frames (`formats-manifest.yaml`). Donos: `motion-hyperframes-engineer` (fontes e presets), `lead-editorial-director` (escolha do formato).
+- **Projeto de vídeo e Drive do cliente:** `playbooks/project-intake.md`. Três camadas que não se misturam: casa (`library/`, viaja), acervo (`Magic Frames Library/` do dono), projeto (uma pasta por trabalho em `~/Movies/magic-frames/`). O cliente compartilha a pasta do rolo de câmera com o e-mail da empresa; `rclone` lista, baixa (`copy`, nunca `sync`) e confere MD5; `manifest.yaml` registra origem de cada mídia e os assets da casa por id; os cortes voltam para `Exports/` do cliente.
 - **Referências e notícias:** `reference-scout` entrega `reference-board` datado; padrão só com dois exemplos por plataforma; insert só com direito de uso classificado.
 
 ## 13. Conexões com editores (MCP) — camada opcional por runtime

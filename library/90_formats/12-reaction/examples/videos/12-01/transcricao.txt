@@ -1,0 +1,9 @@
+If you're not sure about a prompt, write what you think is a good prompt and then ask ChatGPT.
+Follow the formula.
+Act as a prompt engineer.
+Review the following prompt for me.
+Optimize it to make it better.
+And ask me any questions you have before proceeding.
+And guess what?
+It will do exactly that for you.
+And it will create a better version of that prompt.

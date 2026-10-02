@@ -1,0 +1,23 @@
+You think you know AI? You don't.
+There are three levels of AI, and most people are stuck on level one.
+So large language models.
+These are your ChatGPT, Cloud, and Google Gemini.
+These are AI systems that are trained on basically the entire Internet's worth of text data.
+And their whole job process language and spit out human-like responses.
+And they're insanely good at text tasks like answering questions, writing essays, coding, and translating languages.
+So now we're talking AI agents.
+This is where things get real.
+So these aren't just text processors.
+These are systems that can actually perceive what's happening around them, make decisions, and take actions to hit specific goals.
+So cursor, Windsor, Cloud Code.
+So they see your entire project, understand context, and execute multi-step workflows.
+So while you're asking ChatGPT for help, these agents are shipping features.
+And then Agentic AI, this is the endgame.
+They plan multiple-step tasks, reflect on their performance, and completely change strategies when something's not working.
+So it's like having a senior engineer who never sleeps.
+So AI agents follow your workflow.
+But Agentic AI creates its own workflow.
+So which level are you on?
+Because while you're having conversations with ChatGPT, someone else is building their businesses with AI.
+This is Jen and Tech.
+And follow for more content about AI.

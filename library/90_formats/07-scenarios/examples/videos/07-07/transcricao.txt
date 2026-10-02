@@ -1,0 +1,11 @@
+Is it possible to break bedrock in Minecraft?
+If you try to mine bedrock, you'll be there forever, because it's literally impossible.
+But, what if you try to explode it instead?
+While I was researching bedrock, I discovered its mining resistance is basically infinite,
+but its blast resistance isn't.
+The only problem is, bedrock's blast resistance is 3.6 million,
+meaning you would need an explosion 1 million times stronger than TNT.
+But thankfully, I found a way where you only need two.
+By getting these blocks, placing them exactly like this,
+and replacing the piston the second it's destroyed, it glitches the bedrock,
+meaning it is possible to break bedrock.

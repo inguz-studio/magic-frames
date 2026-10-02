@@ -1,0 +1,10 @@
+This AI update has changed visual effects forever because you can now create Hollywood-level visual effects with one simple source video and a basic prompt.
+You can even create multiple camera angles from any scene now.
+Not only that, but you can change the weather and environment all in 1080p and 10 seconds long.
+So here's how you can do it too.
+To get started, go to Kling and select the new O1 model.
+From here, you can go to Video Generation where you can upload your input video and your reference image.
+To do that, go to Transformation and then select Video and upload your video in here.
+Then you can upload your reference image and with a prompt like Replace the Background Color and Lighting with your video to match the image, it will then give you that output.
+Kling's new update also comes with a brand new AI image model that's a Nano Banana competitor.
+If you want to try it out for yourself, type AI in the comments and I'll send you the link.

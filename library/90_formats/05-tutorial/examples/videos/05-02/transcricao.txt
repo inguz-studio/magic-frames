@@ -1,0 +1,73 @@
+You can build any professional mobile app with a front-end, a back-end, a database, and payments,
+and you can get it into the App Store in one sitting.
+All you have to do is type right here.
+Create a really cool Pokemon-style habit tracker where it feels like a Pokemon game,
+and make it in the artistic style of Pokemon.
+Go!
+All right, so let's see how this turns out.
+Clawed code within the Vibecode app is going to work.
+Okay, it's almost done.
+Ooh!
+Look at that!
+Now I want to replace this emoji with an actual, like, Pokemon character.
+So now I can just go to the Image tab.
+I can just type in a description of a Pokemon character,
+and I'm just going to generate a ton.
+And you can see they're all generating here.
+Ooh, they're coming in.
+Okay, so I liked this one.
+I'm just going to select this.
+We're going to select Add to Prompt.
+Instead of the fire emoji, please use this image.
+Now we'll run that.
+Okay, it's almost done.
+Ooh!
+There we go!
+Okay, so let's see what happens if we press this plus sign.
+Ooh!
+Drink water.
+Add quest.
+Oh, look at that!
+That's crazy, man!
+Let's go!
+Level 2!
+Okay, so now it's time to initialize payments so we can charge users.
+Finish setup.
+Hmm, I can, yeah, I think this is pretty fair.
+$4.99 per month.
+Boom!
+Okay, so this will automatically create a project on RevenueCat so we can charge users.
+Let's see.
+Wait.
+Oh, there we go!
+Subscribe now.
+Test valid purchase.
+You can see here this project is just called Your App Here.
+It's the name it gave automatically.
+We can see that it charged me $5.
+So payments are working.
+All I need to do is click Publish to the App Store and then it'll just ask me a few questions
+and I'll connect my developer account.
+And I'll just press Start Build and boom!
+Your app is on the way to the App Store.
+It's really that easy, guys.
+Thanks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,6 +8,8 @@ brief_intake:
 auto_routes:
   - pattern: '(?i)editar\s+(um|uma|o|a)?\s*(reel|v[ií]deo|short|tiktok|vsl|document[aá]rio)|edit(ing)?\s+(a|the)?\s*(reel|video|short)|montar\s+(o|um)\s+v[ií]deo|v[ií]deo\s+de\s+alta\s+reten[cç][aã]o|high[- ]retention'
     route_to: lead-editorial-director
+  - pattern: '(?i)(ingerir|importar|baixar|puxar|receber)\s+(a\s+|os\s+|as\s+)?(pasta|m[ií]dias?|v[ií]deos?|rolo|arquivos?)\s+(do|da|no|de)\s+(drive|cliente)|rolo\s+de\s+c[aâ]mera|pasta\s+(do\s+)?cliente|abrir\s+(o\s+)?projeto'
+    route_to: lead-editorial-director
   - pattern: '(?i)coloriza[cç][aã]o|color\s+grad(e|ing)|colorista|colorist|\bluts?\b|film\s+emulation|emula[cç][aã]o\s+de\s+filme|teal\s*(&|and|e)\s*orange|skin\s*tone|tom\s+de\s+pele|log\s*(to|para|→)\s*rec\.?\s*709|s-?log|v-?log|c-?log|apple\s+log|rec\.?\s*709'
     route_to: color-grading-colorist
   - pattern: '(?i)refer[eê]ncias?\s+(de|em)\s+(reels?|tiktok|shorts|v[ií]deo)|reels?\s+de\s+refer[eê]ncia|pesquisar\s+(reels?|not[ií]cias|tend[eê]ncias|trends?)|not[ií]cias?\s+(da\s+semana|para\s+inserts?|sobre)|tend[eê]ncias\s+de\s+v[ií]deo|trend(ing)?\s+(reels?|research|videos?)|news\s+(clips?|for\s+inserts?)|benchmark\s+de\s+(reels?|v[ií]deos?)'
@@ -20,6 +22,8 @@ auto_routes:
     route_to: asset-broll-curator
   - pattern: '(?i)banco\s+de\s+imagens|b[- ]?rolls?\b|stock\s+footage|pexels|pixabay|unsplash'
     route_to: asset-broll-curator
+  - pattern: '(?i)biblioteca\s+de\s+fontes|fontes?\s+(da\s+casa|para\s+legenda|de\s+legenda)|anima[cç][aã]o\s+de\s+texto|presets?\s+de\s+(texto|legenda|anima[cç][aã]o)|preset\b'
+    route_to: motion-hyperframes-engineer
   - pattern: '(?i)hyperframes|remotion|overlays?\s+(interativos?|em\s+motion|animados?)|motion\s+design\s+(em\s+c[oó]digo|para\s+v[ií]deo|no\s+v[ií]deo)|lower\s+thirds?|kinetic\s+typography|tipografia\s+cin[eé]tica'
     route_to: motion-hyperframes-engineer
   - pattern: '(?i)conselho\s+executivo|murch|baxter|schoonmaker|menke|critique|cr[ií]tica\s+editorial|revis[aã]o\s+editorial|corte\s+bruto'

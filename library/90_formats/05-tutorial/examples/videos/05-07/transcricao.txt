@@ -1,0 +1,12 @@
+Here's how you can create this viral video transition in just a few seconds using AI.
+First, take a screenshot of the frame where you want your video to begin.
+This will be your starting point.
+Then go to Artlist, select AI Image in Video Generator.
+Make sure you switch to the Image to Video tab.
+Upload your screenshot.
+And here you can choose between different AI models like the VO3 or even the brand new Sora 2 that just dropped on Artlist,
+which is currently the most realistic and advanced AI video model.
+From here, all you need to do is simply write down your prompt and that's basically it.
+It might take a few tries as it doesn't always get it right on the first attempt,
+so make sure to experiment with different prompts and different AI models until you get the result that you want.
+Comment Artlist and I will send you the link so you can try it out for yourself.

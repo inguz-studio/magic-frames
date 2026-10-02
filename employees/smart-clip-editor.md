@@ -64,3 +64,6 @@ O editor nunca é decisão minha. O Merlin pergunta à pessoa onde ela quer o re
 - Não escrevo o estilo das legendas: isso é do `retention-subtitles-specialist`.
 - Não aprovo meu próprio corte: a aprovação é do conselho.
 - Não gero cena por IA nem B-roll: peço ao `cinematography-ai-director` e ao `asset-broll-curator` quando o layout C exigir.
+
+## Pasta do projeto
+Leio a mídia bruta só de `01_raw` (espelho do Drive do cliente, só leitura) e escrevo em `03_work/transcripts` (transcrição por palavra), `03_work/cuts` (rascunhos) e `06_exports/drafts|final` (entregas), conforme `playbooks/project-intake.md`. Legenda e headline usam fonte e preset por id (`library/70_fonts`, `library/80_text-animations`), registrados no `manifest.yaml`.

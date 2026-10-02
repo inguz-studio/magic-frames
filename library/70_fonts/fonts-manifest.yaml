@@ -1,0 +1,59 @@
+# fonts-manifest — Magic Frames Library
+# Fontes da casa para legendas, títulos e lower thirds. Os cargos referenciam a fonte pelo `id`; o CSS pronto está em fonts.css.
+# Regra: só entra fonte com `licenca` preenchida. As cinco abaixo são SIL Open Font License 1.1 (arquivo OFL.txt ao lado de cada uma): podem ir no repositório e em vídeo comercial.
+# Origem: repositório github.com/google/fonts (pasta ofl/), baixadas em 2026-10-02.
+fonts:
+  - id: montserrat
+    familia: Montserrat
+    arquivo: library/70_fonts/montserrat/Montserrat[wght].ttf
+    tipo: variavel        # eixo wght 100–900; usar 800–900 (ExtraBold/Black) em legenda
+    pesos: [100, 900]
+    uso: [legenda, titulo, lower-third]
+    css_family: "Montserrat"
+    origem: https://github.com/google/fonts/tree/main/ofl/montserrat
+    licenca: OFL-1.1
+    fallback: anton
+  - id: anton
+    familia: Anton
+    arquivo: library/70_fonts/anton/Anton-Regular.ttf
+    tipo: estatica
+    pesos: [400]
+    uso: [legenda, titulo]
+    css_family: "Anton"
+    origem: https://github.com/google/fonts/tree/main/ofl/anton
+    licenca: OFL-1.1
+    fallback: archivoblack
+  - id: bebasneue
+    familia: Bebas Neue
+    arquivo: library/70_fonts/bebasneue/BebasNeue-Regular.ttf
+    tipo: estatica        # caixa alta por desenho; boa para headline e contador
+    pesos: [400]
+    uso: [titulo, contador, lower-third]
+    css_family: "Bebas Neue"
+    origem: https://github.com/google/fonts/tree/main/ofl/bebasneue
+    licenca: OFL-1.1
+    fallback: oswald
+  - id: oswald
+    familia: Oswald
+    arquivo: library/70_fonts/oswald/Oswald[wght].ttf
+    tipo: variavel        # eixo wght 200–700; condensada, legível em 9:16
+    pesos: [200, 700]
+    uso: [legenda, lower-third]
+    css_family: "Oswald"
+    origem: https://github.com/google/fonts/tree/main/ofl/oswald
+    licenca: OFL-1.1
+    fallback: montserrat
+  - id: archivoblack
+    familia: Archivo Black
+    arquivo: library/70_fonts/archivoblack/ArchivoBlack-Regular.ttf
+    tipo: estatica        # muito pesada; palavra que estoura, headline de gancho
+    pesos: [400]
+    uso: [legenda, titulo]
+    css_family: "Archivo Black"
+    origem: https://github.com/google/fonts/tree/main/ofl/archivoblack
+    licenca: OFL-1.1
+    fallback: anton
+pendentes:
+  - familia: The Bold Font
+    motivo: "citada na regra de legendas (§5.3) mas a licença do autor é só uso pessoal; não entra no repositório nem em entrega até o dono comprar a licença comercial"
+    licenca: pendente

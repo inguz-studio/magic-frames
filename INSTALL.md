@@ -17,6 +17,7 @@ Opcional, melhora o resultado:
 - Pacote `genesis-circle` do catálogo do motor: traz os cinco mind-clones que os cargos citam (`walter-murch`, `roger-deakins-cinematographer`, `joey-korenman-motion`, `alex-hormozi`, `ali-abdaal-creator`) e os squads de vídeo preferidos (`nirvana-video-creator`, `veo-motion-studio`, `vivid-pancake-keyframe-i2v`). Sem eles a empresa roda; com eles ganha voz e ferramentas.
 - Conexões com editores (DaVinci Resolve, Premiere, Final Cut via FCPXML, CapCut). São servidores MCP instalados no seu runtime; `memory/permanent.md` §13 tem a tabela e os comandos.
 - `opencolorio` para conversões de cor mais finas (§8.6b da memória).
+- **rclone** (`brew install rclone`) para ingerir a pasta do Google Drive que o cliente compartilhar com você (`playbooks/project-intake.md`).
 
 ## Instalar
 
@@ -72,4 +73,4 @@ O fato passa a entrar em todo pedido dali em diante. O protocolo completo está 
 
 ## Biblioteca
 
-A pasta `library/` guarda LUTs (`40_luts/`), molduras com alfa (`50_overlays/`) e efeitos sonoros (`60_audio/`), e vem junto no repositório e no pacote. Cada subpasta tem um manifesto com origem e licença de cada arquivo. Enquanto um item estiver marcado como `pendente` no manifesto, os cargos não o usam em entrega; preencher o campo `licenca` libera o uso.
+A pasta `library/` guarda LUTs (`40_luts/`), molduras com alfa (`50_overlays/`) e efeitos sonoros (`60_audio/`), e vem junto no repositório e no pacote. Cada subpasta tem um manifesto com origem e licença de cada arquivo. Enquanto um item estiver marcado como `pendente` no manifesto, os cargos não o usam em entrega; preencher o campo `licenca` libera o uso. Também vêm `70_fonts/` (fontes de licença aberta), `80_text-animations/` (presets de animação de texto) e `90_formats/` (20 formatos com vídeos de exemplo). Por causa dos vídeos de exemplo, o repositório tem cerca de 1,5 GB.

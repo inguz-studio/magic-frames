@@ -1,0 +1,23 @@
+# presets-manifest — Magic Frames Library
+# Presets de animação de texto da casa. Os cargos referenciam pelo `id`. Status: planejado | pronto (com preview e check sem erro).
+variaveis_comuns:
+  - { nome: text, tipo: string }
+  - { nome: font, tipo: id-de-fonte, padrao: montserrat }
+  - { nome: weight, tipo: number, padrao: 900 }
+  - { nome: size, tipo: px, padrao: 84 }
+  - { nome: color, tipo: hex, padrao: "#FFFFFF" }
+  - { nome: accent, tipo: hex, padrao: "#FFD60A" }
+  - { nome: stroke, tipo: px, padrao: 6 }
+  - { nome: start, tipo: s, padrao: 0 }
+  - { nome: duration, tipo: s }
+  - { nome: y, tipo: "px a partir do topo em 1080x1920", padrao: 1380 }
+presets:
+  - { id: caption-karaoke,   nome: "Legenda karaokê",            uso: legenda, descricao: "1 a 3 palavras por linha, palavra falada destacada em cor, stroke preto; lê transcript.json", formatos: [todos], status: planejado }
+  - { id: word-pop,          nome: "Palavra que estoura",         uso: legenda, descricao: "cada palavra entra com scale 0.6→1 e spring; para ganchos e ênfase", formatos: [04-common-trap-mistake, 12-reaction, 13-skit-humor], status: planejado }
+  - { id: typewriter,        nome: "Máquina de escrever",         uso: titulo,  descricao: "caractere a caractere com cursor; para citação e prova", formatos: [02-case-studies, 15-personal-learning-epiphany], status: planejado }
+  - { id: mask-reveal,       nome: "Revelação por máscara",       uso: titulo,  descricao: "linha sobe por trás de uma máscara (clip-path); para títulos de seção", formatos: [01-breakdowns-explainers, 05-tutorial, 11-levels], status: planejado }
+  - { id: counter,           nome: "Contador numérico",           uso: dado,    descricao: "número sobe de 0 ao valor com easing; prefixo/sufixo (R$, %, x)", formatos: [02-case-studies, 10-ranking-tier-list, 08-a-vs-b-comparison], status: planejado }
+  - { id: lower-third,       nome: "Lower third de nome",         uso: lower-third, descricao: "nome + cargo, barra de acento entra em wipe, sai em blur", formatos: [09-qea-interview-clips, 17-personal-update, 18-about-me], status: planejado }
+  - { id: headline-hook,     nome: "Headline de gancho",          uso: titulo,  descricao: "frase do gancho nos primeiros 3 s, caixa alta, entra com impacto, fica 2.5 s; o estilo Headline do Smart Clipper", formatos: [todos], status: planejado }
+  - { id: numbered-card,     nome: "Card numerado",               uso: titulo,  descricao: "número grande + rótulo, para listas e rankings", formatos: [06-listicle, 10-ranking-tier-list, 11-levels], status: planejado }
+  - { id: ab-labels,         nome: "Rótulos A e B",               uso: titulo,  descricao: "dois rótulos lado a lado ou em tela dividida, com acento no vencedor", formatos: [08-a-vs-b-comparison, 07-scenarios], status: planejado }

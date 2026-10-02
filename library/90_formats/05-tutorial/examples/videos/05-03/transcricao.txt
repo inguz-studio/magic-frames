@@ -1,0 +1,72 @@
+We just wiped this entire MacBook Pro. We're going to be turning it into a fully automated AI employee.
+How are we going to do this? Cloud Code, Cloud Code, Cloud Code.
+So this right here is Terminal, as you can see right here, and you can access Cloud Code by going into your terminal and typing Claude.
+Well, if you haven't installed Cloud Code, you can't, but this gives us direct access to Cloud Code.
+And our AI employee, his name is Vibemo, and we gave him his own computer.
+This is his own computer, and Cloud Code actually controls the computer.
+It can do things, create files, edit files, delete files on your computer.
+So like within that terminal, I can say, create a folder in my downloads and call it C, I'm an agent.
+So we're creating a folder, then do research on companies creating AI agents and using them as employees and putting them in a markdown file.
+Then it's going to take that research and turn it into a landing page in the style that I want.
+So it's going to do all of those things directly from our terminal.
+And if we open up our downloads, and you can see here, it created a folder on our computer called C, I'm an agent.
+So we can go within this C, I'm an agent folder.
+Now it's doing research on using AI agents as employees.
+Now it's creating a markdown file.
+And there we go.
+Agent does research just came in.
+And so now we can check out its research.
+Here is the research that it did.
+Now it's creating a landing page based on that research.
+Okay, it's done with the landing page.
+So we can actually click on this.
+And okay, there it is.
+And we can scroll down.
+Let's see.
+Yeah, all right.
+Well, this is not great.
+But the point is, this is like a location on my computer.
+But what if we want this actually on the internet?
+We're going to use the GitHub CLI and the Vercel CLI to push it to the internet.
+Now we're going to run that with Cloud Code.
+Spelunking.
+So right now it's asking me permissions to do certain things.
+But if you actually run this with a command called dangerously skip permissions, you can
+look it up.
+It will actually bypass all of these.
+And you actually won't have to do this.
+And so instead of us having to put in commands, Cloud Code will actually write its own command.
+So anything we type in here, in theory, it could actually write itself.
+If we give this agent the ability to message anyone on Slack if it doesn't know what to do
+or generate and edit images, create videos, generate sounds, post on Twitter or Instagram,
+in theory, it could fully autonomously just control a computer, control a bunch of accounts
+and analyze metrics and send useful information to employees just like a human would.
+Okay, so it actually said it has put this on Vercel.
+We can just copy this link right here.
+You can just paste it in and boom, it's now on the internet.
+So in this video, we saw that I prompted it.
+Eventually, it will just re-prompt itself.
+It'll take everything that happened after using those tools and re-prompt itself.
+And then it will go back and look at the environment, use tools again,
+and then re-prompt itself in a circle.
+And there's infinite amount of tools you could give to Cloud Code.
+And one of those tools is re-prompting itself.
+It's that easy.
+And so this is just day one.
+And this is an overview.
+In day two, we're going to be designing what the front end of this AI agent will look like.
+Because after all, this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.
+And this is a fully autonomous employee.

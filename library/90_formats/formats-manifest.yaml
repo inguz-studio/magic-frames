@@ -1,0 +1,164 @@
+_sobre: 'formats-manifest — Magic Frames Library. Catálogo de formatos criativos de vídeo curto, trazido do board "Short-Form Lego Bricks" (cópia do Vitor) em 2026-10-02: um cartão por formato (quando usar,
+  quando não usar, como executar, ângulos) e os vídeos de exemplo com transcrição e frames. O diretor escolhe o formato por id na entrada do pedido; o Smart Clipper, legendas e motion seguem a receita do
+  cartão.'
+formatos:
+- id: 01-breakdowns-explainers
+  nome: 1. Breakdowns / Explainers
+  grupo: Educational
+  card: library/90_formats/01-breakdowns-explainers/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/01-breakdowns-explainers/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 02-case-studies
+  nome: 2. Case Studies
+  grupo: Educational
+  card: library/90_formats/02-case-studies/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/02-case-studies/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 03-problem-solution
+  nome: 3. Problem Solution
+  grupo: Educational
+  card: library/90_formats/03-problem-solution/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/03-problem-solution/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 04-common-trap-mistake
+  nome: 4. Common Trap / Mistake
+  grupo: Educational
+  card: library/90_formats/04-common-trap-mistake/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/04-common-trap-mistake/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 05-tutorial
+  nome: 5. Tutorial
+  grupo: Educational
+  card: library/90_formats/05-tutorial/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/05-tutorial/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 06-listicle
+  nome: 6. Listicle
+  grupo: Educational
+  card: library/90_formats/06-listicle/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/06-listicle/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 07-scenarios
+  nome: 7. Scenarios
+  grupo: Educational
+  card: library/90_formats/07-scenarios/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/07-scenarios/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 08-a-vs-b-comparison
+  nome: 8. A vs B (vs C) Comparison
+  grupo: Educational
+  card: library/90_formats/08-a-vs-b-comparison/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/08-a-vs-b-comparison/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 09-qea-interview-clips
+  nome: 9. Q&A / Interview Clips
+  grupo: Educational
+  card: library/90_formats/09-qea-interview-clips/card.md
+  exemplos: 0
+  exemplos_dir: library/90_formats/09-qea-interview-clips/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 10-ranking-tier-list
+  nome: 10. Ranking / Rating / Tier List
+  grupo: Educational
+  card: library/90_formats/10-ranking-tier-list/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/10-ranking-tier-list/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 11-levels
+  nome: 11. Levels
+  grupo: Educational
+  card: library/90_formats/11-levels/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/11-levels/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 12-reaction
+  nome: 12. Reaction
+  grupo: Educational
+  card: library/90_formats/12-reaction/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/12-reaction/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 13-skit-humor
+  nome: 13. Skit / Humor
+  grupo: Storytelling
+  card: library/90_formats/13-skit-humor/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/13-skit-humor/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 14-heros-journey
+  nome: 14. Hero’s Journey
+  grupo: Storytelling
+  card: library/90_formats/14-heros-journey/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/14-heros-journey/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 15-personal-learning-epiphany
+  nome: 15. Personal Learning / Epiphany
+  grupo: Storytelling
+  card: library/90_formats/15-personal-learning-epiphany/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/15-personal-learning-epiphany/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 16-day-in-the-life
+  nome: 16. Day In The Life
+  grupo: Storytelling
+  card: library/90_formats/16-day-in-the-life/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/16-day-in-the-life/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 17-personal-update
+  nome: 17. Personal Update
+  grupo: Storytelling
+  card: library/90_formats/17-personal-update/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/17-personal-update/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 18-about-me
+  nome: 18. About Me
+  grupo: Storytelling
+  card: library/90_formats/18-about-me/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/18-about-me/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 19-episodic-series-social-show
+  nome: 19. Episodic Series / Social Show
+  grupo: Storytelling
+  card: library/90_formats/19-episodic-series-social-show/card.md
+  exemplos: 7
+  exemplos_dir: library/90_formats/19-episodic-series-social-show/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
+- id: 20-challenge
+  nome: 20. Challenge
+  grupo: Storytelling
+  card: library/90_formats/20-challenge/card.md
+  exemplos: 1
+  exemplos_dir: library/90_formats/20-challenge/examples/videos
+  status_origem: rascunho — aguarda aprovação do Vitor
+  atualizado_em: '2026-09-24'
