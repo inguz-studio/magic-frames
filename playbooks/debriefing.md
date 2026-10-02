@@ -38,7 +38,7 @@ O diretor apresenta os candidatos ao usuário em linguagem normal, um por linha.
 ```bash
 nrv memory add magic-frames "<fato em uma frase, datado>" --source <trace_id>
 ```
-Se o fato substitui um anterior (o usuário mudou de ideia), nunca apaga: `nrv memory list magic-frames` para achar o id e `nrv memory supersede <id> --by <novo id>`. Para ler o que está em vigor, `nrv memory list magic-frames`. Candidato à `permanent.md` é editado à mão pelo dono (ou por quem ele mandar), e a cópia lida pelo motor (`~/.nirvana/memory/businesses/magic-frames/`) é sincronizada no mesmo ato.
+Se o fato substitui um anterior (o usuário mudou de ideia), nunca apaga: `nrv memory list magic-frames` para achar o id e `nrv memory supersede <id> --by <novo id>`. Para ler o que está em vigor, `nrv memory list magic-frames`. Candidato à `permanent.md` é editado à mão pelo dono (ou por quem ele mandar), e a cópia lida pelo motor (pasta `memory/businesses/magic-frames/` dentro da pasta de dados do motor) é sincronizada no mesmo ato.
 
 ## 5. O que nunca entra na memória
 - Dado de cliente, caminho de arquivo pessoal, nome de pessoa que não é pública.

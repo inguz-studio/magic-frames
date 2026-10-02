@@ -46,11 +46,11 @@ ffmpeg -y -i "$SRC" -vn -ac 1 -ar 16000 -c:a pcm_s16le "$W/audio.wav"
 ### B2. Transcrição por palavra (whisper-cpp)
 Modelo, uma vez (~470 MB, fonte oficial do projeto):
 ```bash
-mkdir -p ~/.nirvana/models/whisper && curl -L -o ~/.nirvana/models/whisper/ggml-small.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin
+mkdir -p ~/.cache/whisper && curl -L -o ~/.cache/whisper/ggml-small.bin https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin
 ```
 Transcrição:
 ```bash
-whisper-cli -m ~/.nirvana/models/whisper/ggml-small.bin -l pt -f "$W/audio.wav" -ojf -ml 1 -sow -of "$W/transcript"
+whisper-cli -m ~/.cache/whisper/ggml-small.bin -l pt -f "$W/audio.wav" -ojf -ml 1 -sow -of "$W/transcript"
 ```
 Gera `$W/transcript.json` com um segmento por palavra e `offsets.from/to` em ms. É a entrada da seleção (passo 4) e da legenda karaokê (passo 6). Para sotaque forte ou áudio ruim, troque para `ggml-medium.bin`.
 

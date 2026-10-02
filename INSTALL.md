@@ -1,12 +1,12 @@
 # Como instalar e usar a Magic Frames
 
-A Magic Frames é uma empresa do Nirvana-OS: nove cargos de edição de vídeo que trabalham juntos, com uma voz só (o Merlin). Este repositório traz a empresa inteira, biblioteca de assets incluída (ver "Biblioteca").
+A Magic Frames é uma empresa criada por Vitor Piagge: nove cargos de edição de vídeo que trabalham juntos, com uma voz só (o Merlin). Ela roda sobre um motor de execução (`nrv`), que precisa estar instalado na máquina. Este repositório traz a empresa inteira, biblioteca de assets incluída (ver "Biblioteca").
 
 ## O que precisa estar na máquina
 
 Obrigatório:
 
-- **Nirvana-OS** (`nrv`) instalado e licenciado, com **Bun** (o motor não roda em Node). Instalador: `npx @nirvana-os/cli`. A licença é por máquina; quem te enviou a empresa indica como obter a sua.
+- O motor de execução (`nrv`) instalado e licenciado, com **Bun** (o motor não roda em Node). A licença é por máquina; quem te enviou a empresa indica como instalar e obter a sua.
 - **FFmpeg** e **ffprobe**. No Mac com Apple Silicon o render usa o encoder `h264_videotoolbox`; em outra máquina qualquer encoder H.264 serve.
 - **whisper-cpp** (`whisper-cli`) com um modelo ggml para a transcrição por palavra do Smart Clipper. O playbook `playbooks/smart-clipper.md` mostra o download do modelo.
 - **Node** com `npx hyperframes` para os overlays e legendas em motion design.
@@ -14,7 +14,7 @@ Obrigatório:
 
 Opcional, melhora o resultado:
 
-- Pacote `genesis-circle` do catálogo Nirvana: traz os cinco mind-clones que os cargos citam (`walter-murch`, `roger-deakins-cinematographer`, `joey-korenman-motion`, `alex-hormozi`, `ali-abdaal-creator`) e os squads de vídeo preferidos (`nirvana-video-creator`, `veo-motion-studio`, `vivid-pancake-keyframe-i2v`). Sem eles a empresa roda; com eles ganha voz e ferramentas.
+- Pacote `genesis-circle` do catálogo do motor: traz os cinco mind-clones que os cargos citam (`walter-murch`, `roger-deakins-cinematographer`, `joey-korenman-motion`, `alex-hormozi`, `ali-abdaal-creator`) e os squads de vídeo preferidos (`nirvana-video-creator`, `veo-motion-studio`, `vivid-pancake-keyframe-i2v`). Sem eles a empresa roda; com eles ganha voz e ferramentas.
 - Conexões com editores (DaVinci Resolve, Premiere, Final Cut via FCPXML, CapCut). São servidores MCP instalados no seu runtime; `memory/permanent.md` §13 tem a tabela e os comandos.
 - `opencolorio` para conversões de cor mais finas (§8.6b da memória).
 

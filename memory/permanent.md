@@ -93,7 +93,7 @@ Esta seção é a única fonte dos números. Funcionários e playbooks referenci
 
 ## 7. Smart Clipper — ferramentas locais (macOS, Apple Silicon)
 - FFmpeg 9.0.1 (Homebrew) com `h264_videotoolbox`, `hevc_videotoolbox`, `prores_videotoolbox`, `libvpx-vp9` (decodifica WebM com alfa). **Sem** `libass`, `freetype` e `zscale`: não há `subtitles`, `ass`, `drawtext` nem tonemapping HDR fiel. Legenda e headline são renderizadas como overlay com alfa pelo HyperFrames e compostas com `overlay`. Sempre `-pix_fmt yuv420p -movflags +faststart`; fonte 10-bit/HDR é convertida para 8-bit antes.
-- Transcrição: `whisper-cli` (pacote `whisper-cpp` do Homebrew). Modelo em `~/.nirvana/models/whisper/ggml-small.bin` (ou `medium` para PT com sotaque forte). Flags para palavra a palavra: `-ojf -ml 1 -sow`.
+- Transcrição: `whisper-cli` (pacote `whisper-cpp` do Homebrew). Modelo em `~/.cache/whisper/ggml-small.bin` (ou `medium` para PT com sotaque forte). Flags para palavra a palavra: `-ojf -ml 1 -sow`.
 - Áudio para transcrição: WAV 16kHz mono PCM (`-ac 1 -ar 16000 -c:a pcm_s16le`), nunca MP3.
 - `-ss`/`-to` antes de `-i` funciona a partir do FFmpeg 5; em versão mais antiga, usar `-t` com duração.
 - Procedimento completo: `playbooks/smart-clipper.md`.
@@ -216,7 +216,7 @@ Regra geral: em short-form, no máximo um efeito de transição visível (whip, 
 ---
 
 ## 10. Runtimes e orquestração de modelos
-Esta empresa é portátil: roda em qualquer runtime com adapter no motor (Claude Code, Codex, Antigravity, pi, Hermes; a lista viva está em `~/.nirvana/skills/_shared/adapters/README.md`). O que não muda entre runtimes: os arquivos da empresa, as rotas, a aceitação por cargo, a memória e os comandos de terminal (FFmpeg, whisper-cpp, HyperFrames, `nrv`).
+Esta empresa é portátil: roda em qualquer runtime com adapter no motor (Claude Code, Codex, Antigravity, pi, Hermes; a lista viva está na documentação de adapters do motor). O que não muda entre runtimes: os arquivos da empresa, as rotas, a aceitação por cargo, a memória e os comandos de terminal (FFmpeg, whisper-cpp, HyperFrames, `nrv`).
 
 **Como o modelo é escolhido.** O motor só fixa modelo no Claude Code; nos demais runtimes o modelo é o que o usuário configurou no próprio runtime (ou `NIRVANA_MODEL`). Por isso o `model:` de cada cargo é **intenção de tier**, traduzida pelo `model_policy` do `business.yaml`:
 | Tier | Cargos | Claude Code | Codex / Antigravity / pi / Hermes |
@@ -247,7 +247,7 @@ Instaladas em 02/10/2026 nesta máquina e registradas no Claude Code (escopo usu
 | DaVinci Resolve | `samuelgursky/davinci-resolve-mcp` (3.291, MIT) | `davinci-resolve` | Resolve 18.5+ (**Studio** para scripting externo; no gratuito, ponte interna por Workspace ▸ Scripts ▸ resolve_bridge) | instalado em `~/Library/Application Support/davinci-resolve-mcp`; Resolve não instalado, API não detectada |
 | Adobe Premiere Pro | `hetpatel-11/Adobe_Premiere_Pro_MCP` (641, MIT) | `premiere-pro` | Premiere 2020+ com o painel `Window ▸ Extensions ▸ MCP Bridge (CEP)` iniciado | pacote npm `adobe-premiere-pro-mcp` global; painel CEP instalado, modo debug ativado; Premiere não instalado |
 | Final Cut Pro | `DareDev256/fcp-mcp-server` (113, MIT, PyPI) | `fcpxml` | Final Cut (troca por FCPXML exportado/importado; pasta `FCP_PROJECTS_DIR=~/Movies`) | roda por `uvx --python 3.12 fcp-mcp-server`; testado |
-| CapCut | `mrbuslov/capcut-ai-editor` (115, MIT) | `capcut-smartcut` | CapCut instalado; edita o rascunho em disco (corta pausas, takes repetidos, legenda) | clonado em `~/.nirvana/tools/mcp/capcut-ai-editor` com venv Python 3.12; **não testado** (a execução foi bloqueada pela política da sessão) |
+| CapCut | `mrbuslov/capcut-ai-editor` (115, MIT) | `capcut-smartcut` | CapCut instalado; edita o rascunho em disco (corta pausas, takes repetidos, legenda) | clonado localmente com venv Python 3.12; **não testado** (a execução foi bloqueada pela política da sessão) |
 
 **Regra de uso (decisão do dono, 02/10/2026): editor é opt-in da pessoa, projeto a projeto.** O padrão da Magic Frames é a esteira própria (FFmpeg + HyperFrames, entrega em MP4). Na entrada, o Merlin pergunta onde a pessoa quer o resultado (esteira própria, CapCut, Premiere, Final Cut ou Resolve); a resposta fica na memória do projeto e vale só para ele. Nenhum cargo abre um editor que a pessoa não escolheu, e CapCut não é usado por padrão em nenhum fluxo. Preferência repetida ("sempre no Premiere") vira candidato de memória no debrief, e só vira regra com o sim do dono.
 
@@ -258,6 +258,6 @@ Instaladas em 02/10/2026 nesta máquina e registradas no Claude Code (escopo usu
 npx davinci-resolve-mcp setup --clients manual            # depois registrar o comando impresso
 npm install -g adobe-premiere-pro-mcp && premiere-pro-mcp --install-cep
 claude mcp add -s user fcpxml -e FCP_PROJECTS_DIR=$HOME/Movies -- uvx --python 3.12 fcp-mcp-server
-git clone https://github.com/mrbuslov/capcut-ai-editor ~/.nirvana/tools/mcp/capcut-ai-editor  # venv 3.12, pip install -e ., mcp<2
+git clone https://github.com/mrbuslov/capcut-ai-editor <pasta-local>  # venv 3.12, pip install -e ., mcp<2
 ```
 Alternativas abertas feitas para agente, não instaladas: `jub0t/Concat` (3.977, substituto do CapCut com MCP) e `pireel/pireel` (1.251). Não instalada de propósito: `SpliceKit` (160), porque remenda o binário do Final Cut.
