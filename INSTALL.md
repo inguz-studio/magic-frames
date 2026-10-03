@@ -17,7 +17,8 @@ Opcional, melhora o resultado:
 - Pacote `genesis-circle` do catálogo do motor: traz os cinco mind-clones que os cargos citam (`walter-murch`, `roger-deakins-cinematographer`, `joey-korenman-motion`, `alex-hormozi`, `ali-abdaal-creator`) e os squads de vídeo preferidos (`nirvana-video-creator`, `veo-motion-studio`, `vivid-pancake-keyframe-i2v`). Sem eles a empresa roda; com eles ganha voz e ferramentas.
 - Conexões com editores (DaVinci Resolve, Premiere, Final Cut via FCPXML, CapCut). São servidores MCP instalados no seu runtime; `memory/permanent.md` §13 tem a tabela e os comandos.
 - `opencolorio` para conversões de cor mais finas (§8.6b da memória).
-- **rclone** (`brew install rclone`) para ingerir a pasta do Google Drive que o cliente compartilhar com você (`playbooks/project-intake.md`).
+- **rclone** (`brew install rclone`) para ingerir a pasta do Google Drive que o cliente compartilhar com você, e **gdown** (`brew install gdown`) para pasta pública pequena (`playbooks/project-intake.md`).
+- Um conector (MCP) de Google Drive no seu runtime, opcional: no Codex, `codex mcp add gdrive -- npx -y @piotr-agier/google-drive-mcp` com credencial OAuth do Google Cloud. Serve para achar e listar a pasta do cliente sem sair do terminal; o download em volume continua no rclone.
 
 ## Instalar
 
