@@ -48,7 +48,7 @@
     },
     "employee:color-grading-colorist": {
       "type": "employee",
-      "hash": "baf236c8f0712b7f"
+      "hash": "cc78bb9231e4a534"
     },
     "employee:council-editorial-arbiter": {
       "type": "employee",
@@ -60,7 +60,7 @@
     },
     "employee:motion-hyperframes-engineer": {
       "type": "employee",
-      "hash": "b8b3a7b0d9eee878"
+      "hash": "79b08622518ec701"
     },
     "employee:reference-scout": {
       "type": "employee",
@@ -72,7 +72,7 @@
     },
     "employee:smart-clip-editor": {
       "type": "employee",
-      "hash": "942cc4d6dfe06ad5"
+      "hash": "b58a608f2925f0a1"
     },
     "org-chart:org-chart.yaml": {
       "type": "org-chart",
