@@ -23,7 +23,7 @@ Regra: o projeto **aponta** para a casa e para o acervo pelo `id` no manifesto; 
 │   ├── transcripts/       # whisper: .json por palavra, .srt
 │   ├── proxies/
 │   ├── cuts/              # trechos e rascunhos de corte
-│   └── project_files/     # .drp, .prproj, .fcpxml, EDL (quando o cliente escolheu um editor)
+│   └── project_files/     # timeline.json do CapCut, .drp, .prproj, .fcpxml, EDL (quando o cliente escolheu um editor)
 ├── 04_audio/              # trilha, SFX escolhidos (por id da casa), VO
 ├── 05_graphics/           # overlays renderizados com alfa, legendas, lower thirds
 └── 06_exports/
@@ -124,5 +124,5 @@ Sempre `copy`, nunca `sync`, nos dois sentidos: nada do cliente é apagado. `--d
 No Codex, um servidor MCP local de Google Drive entra com `codex mcp add gdrive -- npx -y @piotr-agier/google-drive-mcp` (ou `dylancaponi/gdrive-mcp-server`, continuação mantida do servidor de referência), com uma credencial OAuth de app desktop criada no Google Cloud e apontada pela variável de ambiente que o servidor documenta. No Claude Code, o conector oficial do Google Drive se liga pela própria conta. Em qualquer caso o conector serve à descoberta (§4); o volume continua no `rclone`.
 
 - **Abertura:** o diretor cria a pasta, escolhe o formato por id e abre o manifesto; o curador ingere, confere hash, preenche `media` e trava `01_raw`.
-- **Produção:** Smart Clipper lê de `01_raw` e escreve em `03_work/cuts`; legendas e motion lêem fontes e presets da casa por id; cor registra a LUT por id.
+- **Produção:** Smart Clipper lê de `01_raw` e escreve em `03_work/cuts`; entrega no CapCut = rascunho gerado por `scripts/capcut_draft.py` na pasta de rascunhos do CapCut, com as mídias apontando para a pasta do projeto (`memory/permanent.md` §13); legendas e motion lêem fontes e presets da casa por id; cor registra a LUT por id.
 - **Entrega:** `06_exports/final` sobe para `Exports/` do cliente; `deliverables[].drive_id` preenchido; debriefing (`playbooks/debriefing.md`).

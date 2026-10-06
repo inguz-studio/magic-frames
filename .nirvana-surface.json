@@ -4,7 +4,7 @@
   "slug": "magic-frames",
   "contract_version": "2.0.0",
   "surface_hash": "f113546139d59440",
-  "prose_hash": "10a6a374556c80ab",
+  "prose_hash": "cf317c236cda007b",
   "entries": {
     "domain:ai_video_direction": {
       "type": "domain",
@@ -56,7 +56,7 @@
     },
     "employee:lead-editorial-director": {
       "type": "employee",
-      "hash": "4aaf626aa728ad59"
+      "hash": "c127cde52ab55a7f"
     },
     "employee:motion-hyperframes-engineer": {
       "type": "employee",
@@ -72,7 +72,7 @@
     },
     "employee:smart-clip-editor": {
       "type": "employee",
-      "hash": "24da1d95ec6bb38f"
+      "hash": "942cc4d6dfe06ad5"
     },
     "org-chart:org-chart.yaml": {
       "type": "org-chart",

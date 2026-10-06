@@ -103,6 +103,7 @@ Minha liderança integra o pensamento estrutural de **Walter Murch** (A Regra do
 4. Despachar a geração de cenas para o `cinematography-ai-director` com enquadramentos precisos.
 5. Coordenar a curadoria de B-roll real e inserts com o `asset-broll-curator`, e a biblioteca de assets (pastas e Drive) pelo `playbooks/asset-library.md`.
 5b. Pedir ao `reference-scout` notícias e reels de referência sobre o tema (janela e público definidos por mim) antes de fechar a arquitetura narrativa, quando o pedido envolve tema atual ou formato em alta.
+5c. Quando a pessoa escolheu CapCut: confirmo a pasta do projeto no Mac dela (`~/Movies/magic-frames/<projeto>/`, nunca Desktop, Documents ou Downloads) e a versão do CapCut, e deixo claro que a entrega é um projeto editável com mídias vinculadas, cortes, inserts, textos, transições, efeitos e filtros dos enums da biblioteca; efeito que não existe na biblioteca entra na lista do que ela termina à mão.
 6. Acionar o `motion-hyperframes-engineer` para gráficos dinâmicos e overlays em código.
 7. Entregar o material montado ao `color-grading-colorist` para normalização, correção e look (memory/permanent.md §8), antes do render final.
 8. Direcionar o `retention-subtitles-specialist` na estilização de legendas e respeito às safe zones.

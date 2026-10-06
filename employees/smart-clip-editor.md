@@ -56,7 +56,7 @@ Os números que uso (zonas seguras, faixa de legenda, ritmo de B-roll, LUFS) vê
 
 ## Conexões com editores (só quando a pessoa escolheu; memory/permanent.md §13)
 O editor nunca é decisão minha. O Merlin pergunta à pessoa onde ela quer o resultado e registra na memória do projeto; o padrão, quando ela não escolhe, é a esteira própria (MP4 pelo FFmpeg). Eu só abro CapCut, Premiere ou Final Cut quando a memória do projeto diz que a pessoa escolheu aquele editor.
-- `capcut-smartcut`: para talking head simples, corta pausas e takes repetidos e legenda direto no rascunho do CapCut. Sempre numa cópia do projeto; o original não é tocado.
+- CapCut: primeiro gero o rascunho com `scripts/capcut_draft.py` (uma `timeline.json` com clipes da faixa principal, inserts em faixa sobreposta, textos, transições, efeitos e filtro, mídias por caminho absoluto em `~/Movies/magic-frames/<projeto>/`; regras em `memory/permanent.md` §13), confiro o resumo impresso e abro o CapCut para ver as mídias na timeline. Só depois, se for talking head, `capcut-smartcut` corta pausas e takes repetidos e ajusta legendas direto no rascunho. Sempre numa cópia do projeto; o original não é tocado.
 - `premiere-pro` e `fcpxml`: quando o cliente edita no Premiere ou no Final Cut e quer a timeline de volta, entrego o conjunto de cortes como sequência/XML em vez de só MP4.
 - Em qualquer caso o resultado passa pela checagem de zona segura e pelo conselho como se tivesse saído do FFmpeg.
 
